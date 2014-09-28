@@ -1,0 +1,26 @@
+/*
+ * Globals
+ */
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/*
+ * Blog posts
+ */
+
+.report {
+  margin-bottom: 60px;
+}
+.date{
+  margin-bottom: 20px;
+  color: #999;
+}
