@@ -24,3 +24,21 @@
   margin-bottom: 20px;
   color: #999;
 }
+
+.report img{
+	height: 400px;
+	margin: 20px; 
+}
+
+.sections-list li{
+	border-bottom: 1px solid blue;
+	margin-bottom: 25px;
+	list-style-type: none;
+}
+
+.section-title{
+	text-decoration: none;
+	font-size: 20pt;
+	text-align: center;
+	
+}
