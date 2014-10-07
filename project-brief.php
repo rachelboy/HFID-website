@@ -41,10 +41,6 @@
             <p>To successfully answer these questions we need to effectively work together. Our team contract delineates the manner in which we will interact.  </p>
           </div><!-- /.blog-post -->
 
-          <ul class="pager">
-            <li><a href="project-brief-new.html">Next</a></li>
-          </ul>
-
 
       </div><!-- /.row -->
 

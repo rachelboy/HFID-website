@@ -35,11 +35,6 @@
             <img src="images/storyboard1.jpg" alt="Story board">
           </div>
 
-          <ul class="pager">
-            <li><a href="project-brief-new.html">Previous</a></li>
-            <li><a href="#">Next</a></li>
-          </ul>
-
 
       </div><!-- /.row -->
 
