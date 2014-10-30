@@ -18,6 +18,7 @@
         <li><a href="inspirations.php">Design Inspiration</a></li>
         <li><a href="storyboard_1.php">Storyboard</a></li>
         <li><a href="design-development.php">Design Development</a></li>
+        <li><a href="wireframes.php">Wireframes</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
