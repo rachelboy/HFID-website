@@ -33,7 +33,7 @@
             <p class="date">October 29, 2014</p>
 
             <h2>Site Map</h2>
-            <p>Will be added here</p>
+            <img src="images/wireframes/Sitemap.JPG" alt="site map" height="500px"/>
 
             <h2>Wireframes</h2>
             
