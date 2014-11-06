@@ -267,3 +267,104 @@ button, select{
     right: 15px;
 }
 
+
+
+
+
+
+
+.listItem{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    border: .5px solid black;
+}
+
+
+.listItem h2{
+    font-size: 15pt;
+    text-indent: 15px;
+}
+
+.listItem .coupons{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    font-size: 12pt;
+}
+
+.listItem input[type=image]{
+    height: 15px;
+    width: 30px;
+}
+
+#listItem_one{
+    left: 0px;
+    top: 290px;
+}
+
+#listItem_two input[type=image]{
+    position:absolute;
+    left: 0px;
+    top: 340px;
+}
+
+#listItem_three{
+    left: 0px;
+    top: 390px;
+}
+
+#listItem_four{
+    left: 0px;
+    top: 440px;
+}
+
+#listItem_five{
+    left: 0px;
+    top: 490px;
+}
+
+#listItem_six{
+    left: 0px;
+    top: 540px;
+}
+
+#listItem_seven{
+    left: 0px;
+    top: 590px;
+}
+
+#listItem_eight{
+    left: 0px;
+    top: 640px;
+}
+
+#listItem_nine{
+    left: 0px;
+    top: 690px;
+}
+
+#listItem_ten{
+    left: 0px;
+    top: 740px;
+}
+
+#listItem_eleven{
+    left: 0px;
+    top: 790px;
+}
+
+#listItem_twelve{
+    left: 0px;
+    top: 840px;
+}
+
+#listItem_thirteen{
+    left: 0px;
+    top: 890px;
+}
+
+
+
+
+
