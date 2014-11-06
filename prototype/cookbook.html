@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Framework Test Page</title>
+  <script type='text/javascript' src='javascript/main.js'></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="screen">
+    <div id="header">
+      
+      <div id="menu_button">
+        <img src="images/menu.png" alt="menu" onclick="toggle(menu)">
+      </div>
+
+      <div id="menu">
+        <ul>
+          <li>
+              <label>Choose Store
+              <select>
+                  <option value="Trader">Trader Joe's</option>
+                  <option value="Whole">Whole Foods</option>
+                  <option value="Roche">Roche Bros</option>
+              </select>
+              </label>
+          </li>
+          <li><a href="shopping_list.html">Shopping List</a></li>
+          <li><a href="cookbook.html">Cookbook</a></li>
+          <li><a href="shopping_list.html">Preferences</a></li>
+        <ul>
+      </div>  
+
+       <h1>Cookbook</h1>
+    </div>
+
+   
+    <div id= "top_button_one">
+    
+      <select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+      </select>
+    
+    </div>
+  
+    <div id= "top_button_two">
+    <a href="add_recipe.html"><button>Add Recipe</button></a>
+    </div>
+
+    <form id="form" action="">  
+    <input type="text" name="query" id="query"/>
+    <button type="button" onclick="search()">Search</button>
+    </form> 
+
+    <div class="meal" id="meal_one">
+    
+    <h2>Stovetop Lasagna</h2>
+    <img src="images/lasagna.jpg" alt="Lasagna">
+    <p class="coupons">Available Coupons: 5</p>
+    <p class="servings">Servings: 4</p>
+
+
+    <button>Add to List</button>
+    </div>
+
+    <div class="meal" id="meal_two">
+    
+    <h2>Tomato Soup</h2>
+    <img src="images/soup.png" alt="Tomato Soup">
+    <p class="coupons">Available Coupons: 5</p>
+    <p class="servings">Servings: 4</p>
+
+
+    <button>Add to List</button>
+    </div>
+
+    <div class="meal" id="meal_three">
+    
+    <h2>Tortellini w/ Alfredo</h2>
+    <img src="images/tort.png" alt="Tortellini w/ Alfredo">
+    <p class="coupons">Available Coupons: 5</p>
+    <p class="servings">Servings: 4</p>
+
+
+    <button>Add to List</button>
+    </div>
+
+
+
+    
+
+
+ </div>
+</body>
+</html>
