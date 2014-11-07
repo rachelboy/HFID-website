@@ -161,3 +161,15 @@ button, select{
     left:0px;
 }
 
+#floatl{
+    float:left;
+
+
+}
+
+#floatr{
+    float:right;
+    padding-top: 30px;
+    margin:10px;
+
+}
