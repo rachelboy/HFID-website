@@ -6,13 +6,14 @@
   <script type='text/javascript' src='javascript/main.js'></script>
     <script type='text/javascript' src='javascript/crossoff.js'></script>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/list.css">
 </head>
 <body>
   <div id="screen">
     <div id="header">
       
       <div id="menu_button">
-        <img src="images/menu.png" alt="menu" onclick="toggle(menu)">
+        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
       </div>
 
       <div id="menu">
@@ -30,7 +31,13 @@
           <li><a href="cookbook.html">Cookbook</a></li>
           <li><a href="preferences.html">Preferences</a></li>
         <ul>
-      </div>  
+      </div> 
+      <div id="cookie_popup">
+      <ul>
+          <li onclick="cookies_clicked('cookies','')">cookies</li>
+          <li onclick="cookies_clicked('Chips Ahoy','$0.50 off')">Chips Ahoy $0.50 off</li>
+        <ul>
+    </div> 
        <h1>Shopping List</h1>
     </div>
 
@@ -48,7 +55,7 @@
     </div>
 
     <form id="form" action="">  
-    <input type="text" name="query" id="query"/>
+    <input type="text" name="query" id="query" oninput="show('cookie_popup')"/>
     <button type="button" onclick="search()">Add Items</button>
     </form> 
 

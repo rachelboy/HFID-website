@@ -1,7 +1,13 @@
-function toggle(menu)
+function toggle(element)
 {
-    var menu=document.getElementById('menu');
+    var menu=document.getElementById(element);
     menu.style.display = (menu.style.display === 'block') ? 'none':'block';
+}
+
+function show(element)
+{
+    var menu=document.getElementById(element);
+    menu.style.display = 'block';
 }
 
 function add(image){
