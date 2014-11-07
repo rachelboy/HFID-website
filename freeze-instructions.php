@@ -41,14 +41,14 @@
               <li>Go to Cookbook. Optional: Sort by what you want</li>
               <li>Look through meals, <b>choose Stovetop Lasagna</b></li>
               <li>Click add to list</li>
-              <li>Click the plus signs next to the ingredients when you want them to be added to the list.<b>You already have Kosher Salt, Olive Oil, and Red Pepper Flakes at home</b></li>
+              <li>Click the plus signs next to the ingredients when you want them to be added to the list.<b>You already have Salt, Olive Oil, and Red Pepper Flakes at home</b></li>
               <li>Go to the list</li>
             </ol> 
 
             <h2>Task 2: Shop and Check Out</h2>
              <ol>
               <li>Go to list page.</li>
-              <li>Check off items as if you are shopping in the store. <b>Currently you cannot un-check items after they have been checked except by refreshing the page or hitting remove crossed out items.</b></li>
+              <li>Check off items as if you are shopping in the store.</li>
               <li>Hit check out button</li>
               <li>Go through coupons to be scanned</li>
               <li>Go to the list</li>
