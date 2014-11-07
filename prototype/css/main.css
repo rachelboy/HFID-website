@@ -177,6 +177,26 @@ button, select{
     height: 180px;
 }
 
+.meal a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.meal a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.meal a:hover {
+    color: silver;
+    text-decoration: none;
+}
+
+.meal a:active {
+    color: black;
+    text-decoration: none;
+}
+
 #meal_one{
     left: 0px;
     top: 270px;
