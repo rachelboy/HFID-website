@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Add a Recipe</title>
-  <script type='text/javascript' src='javascript/main.js'></script>
+  <script type='text/javascript' src='javascript/add_recipe.js'></script>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/add_recipe.css">
 </head>
@@ -57,16 +57,25 @@
         <div style="clear: both"></div>
       </div>
       <div>
-        <div id="ingredient">
+        <div id="add_ingredient">
           <h2>Ingredients</h2>
-          <input class="inputs" type="text" name="ingredientname">
+          <input class="inputs" type="text" id="ingredientname" value="ingredient name">
         </div>
         <div id="quantity">
           <h2>Quantity</h2>
-          <input class="inputs" type="number" name="ingredientnum">
-          <button class="inputs" type="button">+</button> 
+          <div id="quantity_def">
+            <input class="inputs" type="number" id="ingredientnum">
+            <input class="inputs" type="text" id="ingredientunits" value="units">
+          </div>
+          <button class="inputs" type="button" onclick="add_ingredient()">+</button> 
         </div>
-        <div style="clear: both"></div>
+        <div id="added_ingredients" style="clear: both">
+          <div id="names">
+          </div>
+          <div id="quantities">
+          </div>
+          <div id="added_ingredients" style="clear: both"></div>
+        </div>
       </div>
       <div>
         <h2>Notes</h2>
@@ -74,5 +83,6 @@
       </div>
       <button class="inputs" type="button" onclick="location.href='cookbook.html'">Add Recipe</button>
     </div>
+
 </body>
 </html>

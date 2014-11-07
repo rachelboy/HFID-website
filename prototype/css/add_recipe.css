@@ -67,19 +67,29 @@
     float: right;
 }
 
-#main #ingredient {
-    width: 70%;
+#main #add_ingredient {
+    width: 60%;
     float: left;
 }
 
 #main #quantity {
-    width: 30%;
+    width: 40%;
     float: right;
 }
 
-#main #quantity input[type="number"] {
+#main #quantity #quantity_def{
     width: 65%;
     float: left;
+}
+
+#main #quantity #quantity_def input[type="number"] {
+    width: 47%;
+    float: left;
+}
+
+#main #quantity #quantity_def input[type="text"] {
+    width: 47%;
+    float: right;
 }
 
 #main #quantity button {
@@ -87,6 +97,16 @@
     float: right;
     height: auto;
     margin: 0px;
+}
+
+#main #added_ingredients #names {
+    width: 60%;
+    float: left;
+}
+
+#main #added_ingredients #quantities {
+    width: 40%;
+    float: right;
 }
 
 textarea {
