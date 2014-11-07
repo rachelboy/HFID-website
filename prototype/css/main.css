@@ -318,6 +318,11 @@ button, select{
     width: 30px;
 }
 
+.listItem a{
+    text-decoration: none;
+    color: #2D7FB4;
+}
+
 #listItem_one{
     left: 0px;
     top: 290px;
