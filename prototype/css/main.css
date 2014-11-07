@@ -303,7 +303,7 @@ button, select{
     top: 290px;
 }
 
-#listItem_two input[type=image]{
+#listItem_two{
     position:absolute;
     left: 0px;
     top: 340px;
