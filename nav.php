@@ -19,6 +19,7 @@
         <li><a href="storyboard_1.php">Storyboard</a></li>
         <li><a href="design-development.php">Design Development</a></li>
         <li><a href="wireframes.php">Wireframes</a></li>
+        <li><a href="prototype/cookbook.html">Prototype</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
