@@ -417,3 +417,34 @@ button, select{
     top: 350px;
 }
 
+
+
+#coupon_description{
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+
+#coupon{
+    position: absolute;
+    left: 100px;
+    width: 400px;
+    top: 400px;
+    height: 300px;
+}
+
+#coupon_rightarrow{
+    position: absolute;
+    left: 500px;
+    width: 90px;
+    top: 400px;
+    height: 300px;
+}
+
+#coupon_leftarrow{
+    position: absolute;
+    left: 10px;
+    width: 90px;
+    top: 400px;
+    height: 300px;
+}
