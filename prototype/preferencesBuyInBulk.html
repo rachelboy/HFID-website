@@ -1,0 +1,91 @@
+<head>
+  <meta charset="utf-8">
+  <title>Framework Test Page</title>
+  <script type='text/javascript' src='javascript/main.js'></script>
+  <link rel="stylesheet" href="css/preferences.css">
+</head>
+<body>
+  <div id="screen">
+    <div id="header">
+      
+      <div id="menu_button">
+        <img src="images/menu.png" alt="menu" onclick="toggle(menu)">
+      </div>
+
+      <div id="menu">
+        <ul>
+          <li>
+              <label>Choose Store
+              <select>
+                  <option value="Trader">Trader Joe's</option>
+                  <option value="Whole">Whole Foods</option>
+                  <option value="Roche">Roche Bros</option>
+              </select>
+              </label>
+          </li>
+          <li><a href="shopping_list.html">Shopping List</a></li>
+          <li><a href="cookbook.html">Cookbook</a></li>
+          <li><a href="preferences.html">Preferences</a></li>
+        <ul>
+      </div>  
+
+       <h1>Preferences</h1>
+    </div>
+
+<div id="heightpre">
+
+<div class="preferenceItem" > 
+    <a href="preferencesChooseStore.html"><h3>Choose Store</h3></a>
+    </div>
+<div class="preferenceItem" > 
+    <a href="preferencesDietaryRestrictions.html"><h3>Dietary Restrictions</h3></a>
+    </div>
+<div class="preferenceItem" > 
+    <a href="preferencesBuyOrganic.html"><h3>Buy Organic</h3></a>
+    </div>
+<div class="preferenceItem" > 
+    <a href="preferencesMeatPreferences.html"><h3>Meat Preferences</h3></a>
+    </div>
+<div class="preferenceItem" > 
+    <a href="preferencesFoodsToAvoid.html"><h3>Foods to Avoid</h3></a>
+    </div>
+<div class="preferenceItem" > 
+    <a href="preferences.html"><h3>Buy in Bulk</h3></a>
+    </div>
+  <div class="subPreferenceItem"> 
+
+    <div id="floatl">
+      <h3>Buy Perishables in Bulk?</h3>
+    </div>
+
+    <div id="floatr">
+      <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked" />
+      <label for="radio-choice-1">Yes</label>
+
+      <input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2"  />
+      <label for="radio-choice-2">No</label>
+
+    </div>
+    <div style="clear:both"></div>
+  </div>
+
+  <div class="subPreferenceItem"> 
+
+    <div id="floatl">
+      <h3>Buy Non-Perishables in Bulk</h3>
+    </div>
+
+    <div id="floatr">
+      <input type="radio" name="radio-choice-2" id="radio-choice-3" value="choice-3" checked="checked" />
+      <label for="radio-choice-3">Yes</label>
+
+      <input type="radio" name="radio-choice-2" id="radio-choice-4" value="choice-4"  />
+      <label for="radio-choice-4">No</label>
+
+    </div>
+    <div style="clear:both"></div>
+  </div>
+
+</div>
+</body>
+</html>
