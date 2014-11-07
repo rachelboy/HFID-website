@@ -34,6 +34,15 @@ body {
     
 }
 
+button, select{
+    height: 60px;
+    width: 200px;
+    font-size: 18pt;
+    background-color: #2D7FB4;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
 #menu_button{
     position: absolute;
     top: 0px;
@@ -55,7 +64,7 @@ body {
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
     z-index: 999999999999;
-    background-color: yellow;
+    background-color: AliceBlue;
     display: none;
 }   
 
@@ -75,17 +84,6 @@ body {
     font-size: 18pt;
     color: black;
 }
-
-button, select{
-    height: 60px;
-    width: 200px;
-    font-size: 18pt;
-    background-color: #2D7FB4;
-    color: #FFFFFF;
-    margin: 20px;
-}
-
-
 
 #top_button_one{
     position: absolute;
