@@ -12,7 +12,8 @@ function show(element)
 
 function add(image){
 	var image=document.getElementById(image);
-    image.src = (image.src="images/add.png") ? 'images/check.png': 'images/add.png'
+  console.log(image.src.slice(-7,-4));
+  image.src = (image.src.slice(-7,-4)==="add") ? 'images/check.png': 'images/add.png';
  }
 
 
