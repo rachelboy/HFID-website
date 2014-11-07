@@ -1,12 +1,12 @@
 function crossoff(listitem)
 {
     var listitem=document.getElementById(listitem);
-    if (listitem.style.color==="black"){
-    	listitem.style.color="silver";
+    if (listitem.style.color==="silver"){
+    	listitem.style.color="black";
     } 
 
 	else{
-		listitem.style.color="black"
+		listitem.style.color="silver"
 	}
 }
 
