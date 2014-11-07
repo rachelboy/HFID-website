@@ -20,6 +20,7 @@
         <li><a href="design-development.php">Design Development</a></li>
         <li><a href="wireframes.php">Wireframes</a></li>
         <li><a href="prototype/cookbook.html">Prototype</a></li>
+        <li><a href="freeze-instructions.php">Prototype Instructions</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
