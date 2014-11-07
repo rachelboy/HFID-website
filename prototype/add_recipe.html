@@ -1,1 +1,78 @@
-huzzah!
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Add a Recipe</title>
+  <script type='text/javascript' src='javascript/main.js'></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/add_recipe.css">
+</head>
+<body>
+  <div id="screen">
+    <div id="header">
+      
+      <div id="menu_button">
+        <img src="images/menu.png" alt="menu" onclick="toggle(menu)">
+      </div>
+
+      <div id="menu">
+        <ul>
+          <li>
+              <label>Choose Store
+              <select>
+                  <option value="Trader">Trader Joe's</option>
+                  <option value="Whole">Whole Foods</option>
+                  <option value="Roche">Roche Bros</option>
+              </select>
+              </label>
+          </li>
+          <li><a href="shopping_list.html">Shopping List</a></li>
+          <li><a href="shopping_list.html">Cookbook</a></li>
+          <li><a href="shopping_list.html">Preferences</a></li>
+        <ul>
+      </div>  
+
+       <h1>Add a Recipe</h1>
+    </div>
+
+   
+    <div id="main">
+      <div>
+        <h2>Name</h2>
+        <input class="inputs" type="text" name="recipename">
+      </div>
+      <div>
+        <div id="prep_div">
+          <h2>Preparation Time</h2>
+          <input class="inputs" type="number" name="preptime">
+          <select class="inputs" name="prepunits">
+            <option value="min">min</option>
+            <option value="hr">hr</option>
+          </select> 
+        </div>
+        <div id="serving_size">
+          <h2>Serving Size</h2>
+          <input class="inputs" type="number" name="recipename">
+        </div>
+        <div style="clear: both"></div>
+      </div>
+      <div>
+        <div id="ingredient">
+          <h2>Ingredients</h2>
+          <input class="inputs" type="text" name="ingredientname">
+        </div>
+        <div id="quantity">
+          <h2>Quantity</h2>
+          <input class="inputs" type="number" name="ingredientnum">
+          <button class="inputs" type="button">+</button> 
+        </div>
+        <div style="clear: both"></div>
+      </div>
+      <div>
+        <h2>Notes</h2>
+        <textarea class="inputs"></textarea>
+      </div>
+      <button class="inputs" type="button" onclick="location.href='cookbook.html'">Add Recipe</button>
+    </div>
+</body>
+</html>
