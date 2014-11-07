@@ -30,7 +30,10 @@
 
           <div class="report">
             <h1>Prototype Instructions</h1>
-            <p class="date">October 23, 2014</p>
+            <p class="date">November 7, 2014</p>
+            <h2>Mealz 4 Dealz</h2>
+            <p>Mealz 4 Deals is an app to help you save money while grocery shopping by finding coupons for items you put on your grocery list. The app is centered around a shopping list and you can add individual items to your list or you can add a full meal from the cookbook. The cookbook will suggest meals to you based on coupons available for the meal or you can create and save your own meals. Add ingredients from a meal to your list, shop as you normally do, and when you're ready to check out, the coupons will be available in the app for scanning. Be sure to use the menu for easy navigation between the list and cookbook, as well as to set your preferences so that the app can suggest relevant meals and coupons.</p>
+            <p>Thank you for testing out our prototype! Please note the instructions in bold, as they will help you avoid navigating to pages that don't exist yet.</p>
 
             <h2>Task 1: Create a Shopping List From a Meal</h2>
              <ol>
