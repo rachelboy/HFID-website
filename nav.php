@@ -23,6 +23,7 @@
         <li><a href="freeze-instructions.php">Prototype Instructions</a></li>
         <li><a href="HFIDgroupevaluation.pdf">Heuristic Evaluation</a></li>
         <li><a href="design_refinement_presentation.pdf">Design Refinement Presentation</a></li>
+        <li><a href="design-refinement.php">Design Refinement Report</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
