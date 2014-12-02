@@ -25,22 +25,6 @@ function add(image){
 
 
 
- /* the uncheck isn't working, tried this, but no go :(  var image=document.getElementById('ingredientimage1');
-   if(image.src = menu.src="images/add.png"){
-   		image.src="images/check.png"
-   } 
-   else{
-   	uncheck(image)
-   }
- }
-
-function uncheck(image){
-	if(image.src="images/check.png"){
-		image.src='images/add.png'
-	}
-}
-
-*/
 
 
  
