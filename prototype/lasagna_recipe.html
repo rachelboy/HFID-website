@@ -81,7 +81,19 @@
     </div>
 
     <div id= "bottom_button_one">
-    <button>Email</button>
+    <button onclick="myFunction()">Email</button>
+    <script>
+
+    function myFunction() {
+        var person = prompt("Send recipe to:");
+        
+        if (person != null) {
+            document.getElementById("demo").innerHTML =
+            "Email sent to " + person ;
+        }
+    }
+
+    </script>
     </div>
 
 </body>
