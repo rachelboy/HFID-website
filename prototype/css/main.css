@@ -244,8 +244,8 @@ button, select{
 }
 
 .ingredient input[type=image]{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin: 20px;
 }
 
