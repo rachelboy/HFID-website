@@ -7,8 +7,9 @@ body {
 
 #screen 
 {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
+    top: 30%;
     width: 100%;
     background-color: #FFFFFF;
     border: 1px solid #000000;
@@ -17,10 +18,9 @@ body {
 
 
 #header {
-    position:relative;
+    position:absolute;
     margin: 0 auto;
     top: 0px;
-    left: 0px;
     width:100%;    
     height:10%;
     line-height: 10%;
@@ -37,14 +37,13 @@ body {
 
 #menu_button{
     position: absolute;
-    top: 0px;
-    left: 0px;
-    margin: 20px;
+    top: 5%;
+    left: 1.5%;
+    height: 90%;
 }
 
 #menu_button img{
-    height: 60px;
-    width: 60px;
+    height: 100%;
 }
 
 #menu{
@@ -77,7 +76,7 @@ body {
     color: black;
 }
 
-button, select{
+select{
     height: 60px;
     width: 200px;
     font-size: 18pt;
@@ -86,31 +85,53 @@ button, select{
     margin: 20px;
 }
 
+button{
+    font-size: 18pt;
+    background-color: #2D7FB4;
+    color: #FFFFFF;
+}
 
+#top_buttons{
+    position: absolute;
+    top: 15%;
+    height: 10%;
+    width: 100%;
+}
 
 #top_button_one{
     position: absolute;
-    top: 100px;
     left: 0px;
+    width: 30%;
+    height: 100%;
     z-index: 0;
 }
 
 #top_button_two{
     position: absolute;
-    top: 100px;
+    width: 30%;
+    height: 100%;
     right: 0px;
+}
+
+#bottom_buttons{
+    position: absolute;
+    bottom: 0px;
+    height: 10%;
+    width: 100%;
 }
 
 #bottom_button_one{
     position: absolute;
-    bottom: 0px;
     left: 0px;
+    width: 30%;
+    height: 100%;
 }
 
 #bottom_button_two{
     position: absolute;
-    bottom: 0px;
     right: 0px;
+    width: 30%;
+    height: 100%;
 }
 
 
