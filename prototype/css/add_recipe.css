@@ -67,6 +67,15 @@
     float: right;
 }
 
+#main #serving_size input[type="number"]{
+    float: left;
+    width: 50px;
+}
+
+#main #serving_size div {
+    padding: 10px;
+}
+
 #main #add_ingredient {
     width: 60%;
     float: left;

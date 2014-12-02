@@ -25,3 +25,12 @@
     font-size: 18pt;
     color: black;
 }
+
+#form {
+    width: 90%;
+    padding-top: 30px;
+}
+
+#form input[type="text"] {
+    width: 100%;
+}
