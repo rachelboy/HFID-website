@@ -9,10 +9,10 @@ body {
 {
     position: relative;
     margin: 0 auto;
-    width: 100%;
+    width: 600px;
     background-color: #FFFFFF;
     border: 1px solid #000000;
-    height: 100%;
+    height: 900px;
 }
 
 
@@ -20,8 +20,8 @@ body {
     position:absolute;
     top: 0px;
     left: 0px;
-    width:100%;    
-    height:10%;
+    width:600px;    
+    height:100px;
     line-height: 10%;
     border-bottom:1px solid #000000;
     background-color: #2D7FB4;
