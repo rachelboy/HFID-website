@@ -29,10 +29,11 @@ body {
 }
 
 #header #title_div{
-    padding-top: 2%;
+    padding-top: 3%;
     text-align: center;
     color: #FFFFFF;
-    font-size: 100px;
+    /*font-size: 100px;*/
+    font-size:300%;
 }
 
 #menu_button{
