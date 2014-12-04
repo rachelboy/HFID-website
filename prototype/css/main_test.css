@@ -22,17 +22,18 @@ body {
     margin: 0 auto;
     top: 0px;
     width:100%;    
-    height:8%;
+    height:6%;
     line-height: 10%;
     border-bottom:1px solid #000000;
     background-color: #2D7FB4;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
-#header h1{
+#header #title_div{
     text-align: center;
     color: #FFFFFF;
-    font-size: 32pt;
-    
+    font-size: 100px;
 }
 
 #menu_button{
@@ -91,6 +92,11 @@ button{
     color: #FFFFFF;
 }
 
+.nav_button{
+    width: 35%;
+    height: 100%;
+}
+
 #top_buttons{
     position: absolute;
     top: 12%;
@@ -101,15 +107,11 @@ button{
 #top_button_one{
     position: absolute;
     left: 0px;
-    width: 30%;
-    height: 100%;
     z-index: 0;
 }
 
 #top_button_two{
     position: absolute;
-    width: 30%;
-    height: 100%;
     right: 0px;
 }
 
@@ -123,15 +125,11 @@ button{
 #bottom_button_one{
     position: absolute;
     left: 0px;
-    width: 30%;
-    height: 100%;
 }
 
 #bottom_button_two{
     position: absolute;
     right: 0px;
-    width: 30%;
-    height: 100%;
 }
 
 

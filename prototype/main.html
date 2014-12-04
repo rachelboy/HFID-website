@@ -3,12 +3,17 @@
 <head>
   <meta charset="utf-8">
   <title>Framework Test Page</title>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type='text/javascript' src='javascript/main.js'></script>
   <link rel="stylesheet" href="css/main_test.css">
 </head>
 <body>
 
     <div id="header">
+
+      <div id="title_div">
+        <span id="title">Page Title</span>
+      </div>
         
       <div id="menu_button">
         <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
@@ -31,18 +36,24 @@
         <ul>
       </div>  
 
-      <h1>Page Title</h1>
+      
     </div>
 
     <div id="top_buttons">
-      <button id= "top_button_one">Button 1</button>
-      <button id= "top_button_two">Button 2</button>
+      <button id= "top_button_one" class="nav_button">Button 1</button>
+      <button id= "top_button_two" class="nav_button">Button 2</button>
     </div>
 
     <div id = "bottom_buttons">
-      <button id= "bottom_button_one">Button 3</button>
-      <button id= "bottom_button_two">Button 4</button>
+      <button id= "bottom_button_one" class="nav_button">Button 3</button>
+      <button id= "bottom_button_two" class="nav_button">Button 4</button>
     </div>
 
 </body>
 </html>
+
+<script type="text/javascript">
+  while( $('#header #title').height() > $('#header').height() ) {
+      $('#header #title').css('font-size', (parseInt($('#header #title').css('font-size')) - 1) + "px" );
+    }
+</script>
