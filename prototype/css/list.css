@@ -27,10 +27,102 @@
 }
 
 #form {
+    position: absolute;
+    left: 5%;
+    top: 25%;
     width: 90%;
-    padding-top: 30px;
+    height: 5%;
 }
 
 #form input[type="text"] {
     width: 100%;
+    height: 100%;
+    font-size: 15pt;
+}
+
+.listItem{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 6%;
+    border: .5px solid black;
+}
+
+
+.listItem h2{
+    font-size: 15pt;
+    text-indent: 15px;
+}
+
+.listItem .coupons{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    font-size: 12pt;
+}
+
+.listItem input[type=image]{
+    height: 15px;
+    width: 30px;
+}
+
+.listItem a{
+    text-decoration: none;
+    color: #2D7FB4;
+}
+
+#listItem_one{
+    /*left: 0px;*/
+    top: 35%;
+}
+
+#listItem_two{
+    position:absolute;
+    /*left: 0px;*/
+    top: 41%;
+}
+
+#listItem_three{
+    /*left: 0px;*/
+    top: 47%;
+}
+
+#listItem_four{
+    /*left: 0px;*/
+    top: 53%;
+}
+
+#listItem_five{
+    /*left: 0px;*/
+    top: 59%;
+}
+
+#listItem_six{
+    /*left: 0px;*/
+    top: 65%;
+}
+
+#listItem_seven{
+    /*left: 0px;*/
+    top: 71%;
+}
+
+#listItem_eight{
+    /*left: 0px;*/
+    top: 77%;
+}
+
+#listItem_nine{
+    /*left: 0px;*/
+    top: 83%;
+}
+
+#listItem_ten{
+    /*left: 0px;*/
+    top: 89%;
+}
+
+#listItem_eleven{
+    /*left: 0px;*/
+    top: 95%;
 }
