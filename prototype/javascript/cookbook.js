@@ -1,15 +1,7 @@
-function Meal(title,image, categories, coupons) {
-  this.meal_title = title;
-  this.img = image;
-  this.categories = categories;
-  this.servings = 4;
-  this.coupons = coupons
-}
-
 meals = [];
 
-meals[0] = new Meal("Stovetop Lasagna", "images/lasagna.jpg", ["favorites"], 3);
-meals[1] = new Meal("Tomato Soup", "images/soup.png", ["favorites"], 3)
+meals[0] = [prep_for_compare("Stovetop Lasagna"), "images/lasagna.jpg", ["favorites"],4, 3];
+meals[1] = [prep_for_compare("Tomato Soup"), "images/soup.png", ["favorites"],4, 3]
 
 function prep_for_compare(str){
 	return str.toLowerCase().split(" ");
@@ -21,33 +13,17 @@ function get_query(){
 	return query;
 };
 
-function prep_for_search(meals){
-	prepped_meals = [];
-	for(var i=0; i<meals.length; i++){
-		var title = prep_for_compare(meals[i].meal_title);
-		var image = meals[i].img;
-		var categories = meals[i].categories;
-		var servings = meals[i].servings;
-		var coupons = meals[i].coupons
-		prepped_meals.push([title,image,categories,servings,coupons]);
-	}
-	return prepped_meals;
-}
 
 function eliminateDuplicates(arr) {
-  var i,
-      len=arr.length,
-      out=[],
-      obj={};
-
-  for (i=0;i<len;i++) {
-    obj[arr[i]]=0;
-  }
-  for (i in obj) {
-    out.push(i);
-  }
-  return out;
+	dup_free = []
+	for(var i=0; i<arr.length; i++){
+		if (dup_free.indexOf(arr[i]) == -1){
+			dup_free.push(arr[i])
+		}
+	}
+	return dup_free
 }
+ 
 
 function search(meals, query){
 	results = [];
@@ -58,7 +34,7 @@ function search(meals, query){
 			results.push(meals[j]);
 	}
 
-	print(eliminateDuplicates(results));
+	return eliminateDuplicates(results);
 };
 
 function clear_page(){
@@ -83,23 +59,26 @@ function no_results(){
 	return;
 }
 
-function add_meal(title, src, coupons,servings){
+function add_meal(food){
 	var parent = document.getElementById("meals");
 	var meal = document.createElement("div");
-	div.class = "meal";
-	var title = document.createElemtent("h2");
-	title.innerHTML = "title".join();
+	meal.class = "meal";
+	var title = document.createElement("h2");
+	title.innerHTML = food[0].join(" ");
 	var image = document.createElement('img');
-	image.src = src;
+	image.src = food[1];
 	var coupons = document.createElement('p');
-	coupons.innerHTML = "Availble Coupons:" + coupons;
+	coupons.innerHTML = "Availble Coupons:" + food[4];
 	var servings = document.createElement('p');
-	servings.innerHTML = "Servings:" + servings;
+	servings.innerHTML = "Servings:" + food[3];
+	var add_to_list = document.createElement('button');
+	coupons.innerHTML = "Add to List";
 	parent.appendChild(meal);
 	meal.appendChild(title);
 	meal.appendChild(image);
 	meal.appendChild(coupons);
 	meal.appendChild(servings);
+	meal.appendChild(add_to_list);
 
 }
 

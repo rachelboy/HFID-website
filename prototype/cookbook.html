@@ -53,10 +53,13 @@
 
     <form id="form" action="">  
     <input type="text" name="query" id="query"/>
-    <button type="button" onclick="(clear_page())">Search</button>
+    <button type="button" onclick="(publish(search(meals, get_query())))">Search</button>
     </form> 
 
+  <div id="screen">
+  
   <div id="meals">
+    
     <div class="meal" id="meal_one">
     <a href="lasagna_recipe.html"/>
       <h2>Stovetop Lasagna</h2>
@@ -93,6 +96,6 @@
   </div>
 
   </div>
-  
+  </div>
 </body>
 </html>
