@@ -22,7 +22,7 @@ body {
     float:right;
     clear:right;
     top: 0px;
-    width:90%;    
+    width:92%;    
     height:8%;
     border-bottom:1px solid #000000;
     background-color: #2D7FB4;
@@ -41,7 +41,7 @@ body {
     clear:left;
 /*    top: 2%;
     left: 1.5%;*/
-    width: 10%;
+    width: 8%;
 }
 
 #menu_button img{
