@@ -224,15 +224,15 @@ button, select{
     position: absolute;
     left: 0px;
     top: 240px;
-    width: 560px;
-    height: 520px;
+    width: 80%;
+    height: 60%;
     margin: 20px;
     border: 1px solid #2D7FB4;
 }
 
 .ingredient{
-    width: 500px;
-    height: 50px;
+    width: 55%;
+    height: 15%;
     margin: 30px;
     border: 1px solid #2D7FB4;
 }

@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Framework Test Page</title>
-  <script type='text/javascript' src='javascript/main.js'></script>
+  <!--<script type='text/javascript' src='javascript/main.js'></script>-->
+  <script type='text/javascript' src='javascript/cookbook.js'></script>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -52,9 +53,10 @@
 
     <form id="form" action="">  
     <input type="text" name="query" id="query"/>
-    <button type="button" onclick="search()">Search</button>
+    <button type="button" onclick="(publish([]))">Search</button>
     </form> 
 
+  <div id="meals">
     <div class="meal" id="meal_one">
     <a href="lasagna_recipe.html"/>
       <h2>Stovetop Lasagna</h2>
@@ -84,10 +86,14 @@
     <img src="images/tort.png" alt="Tortellini w/ Alfredo">
     <p class="coupons">Available Coupons: 5</p>
     <p class="servings">Servings: 4</p>
+    
 
-
+  
     <button>Add to List</button>
-    </div>
+  </div>
+
+  </div>
+  
 
 
 
