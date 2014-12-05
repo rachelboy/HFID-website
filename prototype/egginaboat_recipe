@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Egg in a Boat</title>
+    <script type='text/javascript' src='javascript/main.js'></script>
+  <script type='text/javascript' src='javascript/add_recipe.js'></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/individual_recipe.css">
+</head>
+<body>
+  <div id="screen">
+    <div id="header">
+      
+      <div id="menu_button">
+        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+      </div>
+
+      <div id="menu">
+        <ul>
+          <li>
+              <label>Choose Store
+              <select>
+                  <option value="Trader">Trader Joe's</option>
+                  <option value="Whole">Whole Foods</option>
+                  <option value="Roche">Roche Bros</option>
+              </select>
+              </label>
+          </li>
+          <li><a href="shopping_list.html">Shopping List</a></li>
+          <li><a href="cookbook.html">Cookbook</a></li>
+          <li><a href="preferences.html">Preferences</a></li>
+        <ul>
+      </div> 
+
+
+
+
+
+
+       <h1>Egg in a Boat</h1>
+    </div>
+
+    <div id= "top_button_one">
+      <button onclick="location.href='cookbook.html'">Back</button>
+    </div>
+
+    <div id="main">
+
+      <img id="recipe_img" src="images/lasagna.jpg" alt="Lasagna">
+
+      <h2> Ingredients </h2>
+        <table>
+          <tr>
+            <td class="amount">1/2 tbsp</td>
+            <td>Butter</td>
+          </tr>
+          <tr>
+            <td class="amount">1 slice</td>
+            <td>white bread</td>
+          </tr>
+          <tr>
+            <td class="amount">1</td>
+            <td>egg</td>
+          </tr>
+        </table> 
+
+        <h2>Directions/Notes</h2>
+        <p>
+          Butter both sides of bread. Cut a circular hole in the center of the slice of bread, about 2 1/2 inches in diameter.
+        </p>
+        <p>
+         Heat a frying pan or griddle on medium-high heat. When the frying pan is hot, place the bread into the pan and let it brown for one minute. Flip the toast over and let the other side brown for one minute.
+        </p>
+        <p>
+          Break the egg into the hole in the bread. Cook for 2 minutes, or until the egg is cooked to the consistency you prefer.
+        </p>
+    </div>
+
+    <div id= "bottom_button_one">
+    <button onclick="myFunction()">Email</button>
+    <script>
+
+    function myFunction() {
+        var person = prompt("Send recipe to:");
+        
+        if (person != null) {
+            document.getElementById("demo").innerHTML =
+            "Email sent to " + person ;
+        }
+    }
+
+    </script>
+    </div>
+
+</body>
+</html>
