@@ -1,10 +1,9 @@
 #main{
     position: absolute;
-    left: 0px;
-    top: 100px;
-    margin: 20px;
-    padding: 20px;
-    width: 520px;
+    left: 3%;
+    top: 20%;
+    padding: 2%;
+    width: 90%;
     border: 1px solid black;
 }
 
@@ -15,7 +14,7 @@
 #main .inputs {
     display: block;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 150%;
     box-shadow: none;
     border-radius: none;
     padding-top:10px;
@@ -69,11 +68,11 @@
 
 #main #serving_size input[type="number"]{
     float: left;
-    width: 50px;
+    width: 15%;
 }
 
 #main #serving_size div {
-    padding: 10px;
+    padding: 1%;
 }
 
 #main #add_ingredient {
