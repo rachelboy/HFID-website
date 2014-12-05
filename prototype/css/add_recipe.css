@@ -5,16 +5,17 @@
     padding: 2%;
     width: 90%;
     border: 1px solid black;
+    font-size: 200%;
 }
 
 #main h2{
-    font-size: 200%;
+    font-size: 100%;
 }
 
 #main .inputs {
     display: block;
     font-family: sans-serif;
-    font-size: 150%;
+    font-size: 120%;
     box-shadow: none;
     border-radius: none;
     padding-top:10px;
