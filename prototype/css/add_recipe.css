@@ -6,6 +6,8 @@
     width: 90%;
     border: 1px solid black;
     font-size: 200%;
+    float:left;
+    clear: both;
 }
 
 #main h2{
@@ -31,7 +33,7 @@
 #main input[type="text"].focus {
     border: solid 1px #707070;
     box-shadow: 0 0 2px 1px #969696;
-}
+}o
 
 #main input[type="number"]:focus,
 #main input[type="number"].focus {

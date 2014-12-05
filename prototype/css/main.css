@@ -116,8 +116,8 @@ button{
 }
 
 #bottom_buttons{
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom:0;
     height: 8%;
     width: 100%;
 }
