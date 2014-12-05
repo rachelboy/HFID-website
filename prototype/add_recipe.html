@@ -37,6 +37,26 @@
       <ul>
     </div>  
   </div>
+
+  <!-- I hhave assigned this function to top button as a placeholder, also The fucntion should use alert, but that is the only word that i have changed in the function. it needs to be less dynamic-->
+
+  <div id="top_buttons">
+      <button id= "top_button_two" class="nav_button" onclick="myFunction()">
+        Email
+      </button>
+      <script>
+
+    function myFunction() {
+        var person = alert("This will be the system dialogue for adding photos");
+        
+        if (person != null) {
+            document.getElementById("demo").innerHTML =
+            "Email sent to " + person ;
+        }
+    }
+
+    </script>
+  </div>
  
   <div id="main">
     <div>
