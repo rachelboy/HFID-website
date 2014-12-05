@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Strawberry Spinach Salad</title>
+  <title>Braised Red Cabbage</title>
     <script type='text/javascript' src='javascript/main.js'></script>
   <script type='text/javascript' src='javascript/add_recipe.js'></script>
   <link rel="stylesheet" href="css/main.css">
@@ -38,7 +38,7 @@
 
 
 
-       <h1>Strawberry Spinach Salad</h1>
+       <h1>Braised Red Cabbage</h1>
     </div>
 
     <div id= "top_button_one">
@@ -47,58 +47,50 @@
 
     <div id="main">
 
-      <img id="recipe_img" src="images/spinachsalad.jpg" alt="Strawberry Spinach Salad">
+      <img id="recipe_img" src="images/cabbage.jpg" alt="Braised Red Cabbage">
 
-      <h2> Ingredients </h2>
+      <h2> Ingredients</h2>
         <table>
           <tr>
             <td class="amount">2 tbsp</td>
-            <td>sesame seeds</td>
+            <td>butter</td>
           </tr>
           <tr>
-            <td class="amount">1 tbsp</td>
-            <td>poppy seeds</td>
+            <td class="amount">1 head</td>
+            <td>red cabbage, thinly sliced</td>
           </tr>
           <tr>
-            <td class="amount">1/2 cup</td>
+            <td class="amount">1/3 cup</td>
+            <td>water</td>
+          </tr>
+          <tr>
+            <td class="amount">1/4 cup</td>
+            <td>red wine</td>
+          </tr>
+          <tr>
+            <td class="amount">2 tbsp</td>
+            <td>red wine vinegar</td>
+          </tr>
+          <tr>
+            <td class="amount">2 tbsp</td>
             <td>white sugar</td>
           </tr>
           <tr>
-            <td class="amount">1/2 cup</td>
-            <td>olive oil</td>
+            <td class="amount"> </td>
+            <td>salt</td>
           </tr>
           <tr>
-            <td class="amount">1/4 cup</td>
-            <td>distilled white vinegar</td>
-          </tr>
-          <tr>
-            <td class="amount">1/4 tsp</td>
-            <td>paprika</td>
-          </tr>
-          <tr>
-            <td class="amount">1 tbsp</td>
-            <td>minced onion</td>
-          </tr>
-          <tr>
-            <td class="amount">10 oz</td>
-            <td>fresh spinach, rinsed</td>
-          </tr>
-          <tr>
-            <td class="amount">1 qt</td>
-            <td>strawberries, cleaned and sliced</td>
-          </tr>
-          <tr>
-            <td class="amount">1/4 cup</td>
-            <td>almonds, slivered</td>
+            <td class="amount">pinch/td>
+            <td>carraway seeds</td>
           </tr>
         </table> 
 
         <h2>Directions/Notes</h2>
         <p>
-          In a medium bowl, whisk together the sesame seeds, poppy seeds, sugar, olive oil, vinegar, paprika, Worcestershire sauce and onion. Cover, and chill for one hour.
+          Melt butter in a large skillet over medium heat; cook cabbage in the hot butter until it begins to soften, 1 to 2 minutes. Season with salt. Pour in water, red wine, and red wine vinegar. Stir to combine. Mix in sugar and caraway seeds.
         </p>
         <p>
-         In a large bowl, combine the spinach, strawberries and almonds. Pour dressing over salad, and toss. Refrigerate 10 to 15 minutes before serving.
+         Continue to cook and stir until liquid has evaporated and cabbage is tender, about 5 minutes. If cabbage isn't quite tender, add a splash of water and continue cooking a few more minutes.
         </p>
     </div>
 

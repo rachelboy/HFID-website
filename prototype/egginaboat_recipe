@@ -47,7 +47,7 @@
 
     <div id="main">
 
-      <img id="recipe_img" src="images/lasagna.jpg" alt="Lasagna">
+      <img id="recipe_img" src="images/egginaboat.jpg" alt="Egg in a boat">
 
       <h2> Ingredients </h2>
         <table>

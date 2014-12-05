@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Strawberry Spinach Salad</title>
+  <title>BBQ Steak</title>
     <script type='text/javascript' src='javascript/main.js'></script>
   <script type='text/javascript' src='javascript/add_recipe.js'></script>
   <link rel="stylesheet" href="css/main.css">
@@ -38,7 +38,7 @@
 
 
 
-       <h1>Strawberry Spinach Salad</h1>
+       <h1>BBQ Steak</h1>
     </div>
 
     <div id= "top_button_one">
@@ -47,58 +47,59 @@
 
     <div id="main">
 
-      <img id="recipe_img" src="images/spinachsalad.jpg" alt="Strawberry Spinach Salad">
+      <img id="recipe_img" src="images/bbqsteak.jpg" alt="Barbecue Steak">
 
-      <h2> Ingredients </h2>
+      <h2> Ingredients</h2>
         <table>
           <tr>
-            <td class="amount">2 tbsp</td>
-            <td>sesame seeds</td>
+            <td class="amount">1</td>
+            <td>onion, chopped</td>
           </tr>
           <tr>
-            <td class="amount">1 tbsp</td>
-            <td>poppy seeds</td>
-          </tr>
-          <tr>
-            <td class="amount">1/2 cup</td>
-            <td>white sugar</td>
+            <td class="amount">7 cloves</td>
+            <td>garlic</td>
           </tr>
           <tr>
             <td class="amount">1/2 cup</td>
             <td>olive oil</td>
           </tr>
           <tr>
-            <td class="amount">1/4 cup</td>
-            <td>distilled white vinegar</td>
+            <td class="amount">1/2 cup</td>
+            <td>vinegar</td>
           </tr>
           <tr>
-            <td class="amount">1/4 tsp</td>
-            <td>paprika</td>
+            <td class="amount">1/2 cup</td>
+            <td>soy sauce</td>
           </tr>
           <tr>
-            <td class="amount">1 tbsp</td>
-            <td>minced onion</td>
+            <td class="amount">2 tbsp</td>
+            <td>rosemary, chopped</td>
           </tr>
           <tr>
-            <td class="amount">10 oz</td>
-            <td>fresh spinach, rinsed</td>
+            <td class="amount">2 tbsp</td>
+            <td>Dijon mustard</td>
           </tr>
           <tr>
-            <td class="amount">1 qt</td>
-            <td>strawberries, cleaned and sliced</td>
+            <td class="amount">2 tsp</td>
+            <td>salt</td>
           </tr>
           <tr>
-            <td class="amount">1/4 cup</td>
-            <td>almonds, slivered</td>
+            <td class="amount">1 tsp/td>
+            <td>black pepper</td>
+          </tr>
+          <tr>
+            <td class="amount">1 2lb</td>
+            <td>tri-tip steak</td>
           </tr>
         </table> 
 
         <h2>Directions/Notes</h2>
         <p>
-          In a medium bowl, whisk together the sesame seeds, poppy seeds, sugar, olive oil, vinegar, paprika, Worcestershire sauce and onion. Cover, and chill for one hour.
+          Place onion, garlic, olive oil, vinegar, soy sauce, rosemary, mustard, salt, and pepper into the bowl of a food processor. Process until smooth. Place steak in a large resealable plastic bag. Pour marinade over steaks, seal, and refrigerate for about 3 hours.
         </p>
+        <p>Preheat the grill for high heat.</p>
         <p>
-         In a large bowl, combine the spinach, strawberries and almonds. Pour dressing over salad, and toss. Refrigerate 10 to 15 minutes before serving.
+         Brush grill grate with oil. Discard marinade, and place steak on the prepared grill. Cook for 7 minutes per side, or to desired doneness.
         </p>
     </div>
 

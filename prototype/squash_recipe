@@ -47,7 +47,7 @@
 
     <div id="main">
 
-      <img id="recipe_img" src="images/lasagna.jpg" alt="Lasagna">
+      <img id="recipe_img" src="images/squash.jpg" alt="Spaghetti Squash">
 
       <h2> Ingredients </h2>
         <table>
