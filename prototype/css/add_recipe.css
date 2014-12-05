@@ -47,6 +47,11 @@
     box-shadow: 0 0 2px 1px #969696;
 }
 
+#picture_button{
+    position: absolute;
+    right: 0px;
+}
+
 #main #prep_div {
     width: 45%;
     float: left;
