@@ -19,7 +19,8 @@
         <li><a href="storyboard_1.php">Storyboard</a></li>
         <li><a href="design-development.php">Design Development</a></li>
         <li><a href="wireframes.php">Wireframes</a></li>
-        <li><a href="prototype/shopping_list.html">Prototype (Under Development)</a></li>
+        <li><a href="computer_prototype_a/shopping_list.html">Prototype - Computer (V1)</a></li>
+        <li><a href="prototype/shopping_list.html">Prototype - Mobile (Under Development)</a></li>
         <li><a href="freeze-instructions.php">Prototype Instructions</a></li>
         <li><a href="HFIDgroupevaluation.pdf">Heuristic Evaluation</a></li>
         <li><a href="design_refinement_presentation.pdf">Design Refinement Presentation</a></li>

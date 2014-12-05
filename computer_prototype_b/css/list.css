@@ -1,0 +1,36 @@
+#cookie_popup{
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    width: 300px;
+    border: 1px solid #2D7FB4;
+    z-index: 999999999999;
+    background-color: white;
+    display: none;
+}   
+
+
+#cookie_popup ul{
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#cookie_popup li{
+    border-bottom: 1px solid black;
+    font-size: 18pt;
+}
+
+#cookie_popup li a{
+    text-decoration: none;
+    font-size: 18pt;
+    color: black;
+}
+
+#form {
+    width: 90%;
+    padding-top: 30px;
+}
+
+#form input[type="text"] {
+    width: 100%;
+}

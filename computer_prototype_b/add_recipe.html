@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Add a Recipe</title>
+  <script type='text/javascript' src='javascript/add_recipe.js'></script>
+  <script type='text/javascript' src='javascript/main.js'></script>
+  <script type='text/javascript' src='javascript/closeMenu.js'></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/add_recipe.css">
+</head>
+<body>
+  <div id="screen">
+    <div id="header">
+      
+      <div id="menu_button">
+        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+      </div>
+
+      <div id="menu">
+        <ul>
+          <li>
+              <label>Choose Store
+              <select>
+                  <option value="Trader">Trader Joe's</option>
+                  <option value="Whole">Whole Foods</option>
+                  <option value="Roche">Roche Bros</option>
+              </select>
+              </label>
+          </li>
+          <li><a href="shopping_list.html">Shopping List</a></li>
+          <li><a href="shopping_list.html">Cookbook</a></li>
+          <li><a href="shopping_list.html">Preferences</a></li>
+        <ul>
+      </div>  
+
+       <h1>Add a Recipe</h1>
+    </div>
+
+   
+    <div id="main">
+      <div>
+        <h2>Name</h2>
+        <input class="inputs" type="text" name="recipename">
+      </div>
+      <div>
+        <div id="prep_div">
+          <h2>Preparation Time</h2>
+          <input class="inputs" type="number" name="preptime">
+          <select class="inputs" name="prepunits">
+            <option value="min">min</option>
+            <option value="hr">hr</option>
+          </select> 
+        </div>
+        <div id="serving_size">
+          <h2>Serving Size</h2>
+          <div style="float:left">
+            serves
+          </div>
+          <input class="inputs" type="number" name="recipename" value="4">
+          <div>
+            people
+          </div>
+        </div>
+        <div style="clear: both"></div>
+      </div>
+      <div>
+        <div id="add_ingredient">
+          <h2>Ingredients</h2>
+          <input class="inputs" type="text" id="ingredientname" value="ingredient name">
+        </div>
+        <div id="quantity">
+          <h2>Quantity</h2>
+          <div id="quantity_def">
+            <input class="inputs" type="number" id="ingredientnum">
+            <input class="inputs" type="text" id="ingredientunits" value="units">
+          </div>
+          <button class="inputs" type="button" onclick="add_ingredient()">+</button> 
+        </div>
+        <div id="added_ingredients" style="clear: both">
+          <div id="names">
+          </div>
+          <div id="quantities">
+          </div>
+          <div id="added_ingredients" style="clear: both"></div>
+        </div>
+      </div>
+      <div>
+        <h2>Direction/Notes</h2>
+        <textarea class="inputs"></textarea>
+      </div>
+      <div style="height: 80px"/>
+      <div id= "bottom_button_one">
+        <a href="cookbook.html"><button>Add Recipe</button></a>
+      </div>
+      <div id= "bottom_button_two">
+        <a href="cookbook.html"><button>Cancel</button></a>
+      </div>
+    </div>
+
+</body>
+</html>
