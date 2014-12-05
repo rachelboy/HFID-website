@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Chicken Enchiladas</title>
+    <script type='text/javascript' src='javascript/main.js'></script>
+  <script type='text/javascript' src='javascript/add_recipe.js'></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/individual_recipe.css">
+</head>
+<body>
+  <div id="screen">
+    <div id="header">
+      
+      <div id="menu_button">
+        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+      </div>
+
+      <div id="menu">
+        <ul>
+          <li>
+              <label>Choose Store
+              <select>
+                  <option value="Trader">Trader Joe's</option>
+                  <option value="Whole">Whole Foods</option>
+                  <option value="Roche">Roche Bros</option>
+              </select>
+              </label>
+          </li>
+          <li><a href="shopping_list.html">Shopping List</a></li>
+          <li><a href="cookbook.html">Cookbook</a></li>
+          <li><a href="preferences.html">Preferences</a></li>
+        <ul>
+      </div> 
+
+
+
+
+
+
+       <h1>Chicken Enchiladas</h1>
+    </div>
+
+    <div id= "top_button_one">
+      <button onclick="location.href='cookbook.html'">Back</button>
+    </div>
+
+    <div id="main">
+
+      <img id="recipe_img" src="images/lasagna.jpg" alt="Lasagna">
+
+      <h2> Ingredients </h2>
+        <table>
+          <tr>
+            <td class="amount">1 tbsp</td>
+            <td>Butter</td>
+          </tr>
+          <tr>
+            <td class="amount">1/2 cup</td>
+            <td>Chopped green onions</td>
+          </tr>
+          <tr>
+            <td class="amount">1/2 tsp</td>
+            <td>garlic powder</td>
+          </tr>
+          <tr>
+            <td class="amount">1 4oz can</td>
+            <td>diced green chiles</td>
+          </tr>
+          <tr>
+            <td class="amount">1 10 oz can</td>
+            <td>condensed cream of mushroom soup</td>
+          </tr>
+          <tr>
+            <td class="amount">1/2 cup</td>
+            <td>sour cream</td>
+          </tr>
+          <tr>
+            <td class="amount">1 1/2 cups</td>
+            <td>cubed cooked chicken breast meat</td>
+          </tr>
+          <tr>
+            <td class="amount">1 cup</td>
+            <td>shredded cheddar cheese</td>
+          </tr>
+          <tr>
+            <td class="amount">6</td>
+            <td>12 inch flour tortillas</td>
+          </tr>
+          <tr>
+            <td class="amount">1/4 cup</td>
+            <td>milk</td>
+          </tr>
+        </table> 
+
+        <h2>Directions/Notes</h2>
+        <p>
+          Preheat oven to 350 degrees F (175 degrees C). Lightly grease a large baking dish.
+        </p>
+        <p>
+         In a medium saucepan over medium heat, melt the butter and saute the green onion until tender (about 3 to 4 minutes). Add the garlic powder, then stir in the green chiles, cream of mushroom soup and sour cream. Mix well. Reserve 3/4 of this sauce and set aside. To the remaining 1/4 of the sauce in the saucepan, add the chicken and 1/2 cup of shredded Cheddar cheese. Stir together.
+        </p>
+        <p>Fill each flour tortilla with the chicken mixture and roll up. Place seam side down in the prepared baking dish.
+        </p>
+        <p>In a small bowl combine the reserved 3/4 of the sauce with the milk. Spoon this mixture over the rolled tortillas and top with the remaining 1/2 cup of shredded Cheddar cheese. Bake in the preheated oven for 30 to 35 minutes, or until cheese is bubbly.
+        </p>
+    </div>
+
+    <div id= "bottom_button_one">
+    <button onclick="myFunction()">Email</button>
+    <script>
+
+    function myFunction() {
+        var person = prompt("Send recipe to:");
+        
+        if (person != null) {
+            document.getElementById("demo").innerHTML =
+            "Email sent to " + person ;
+        }
+    }
+
+    </script>
+    </div>
+
+</body>
+</html>
