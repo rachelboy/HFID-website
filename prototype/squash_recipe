@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Spaghetti Squash</title>
+    <script type='text/javascript' src='javascript/main.js'></script>
+  <script type='text/javascript' src='javascript/add_recipe.js'></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/individual_recipe.css">
+</head>
+<body>
+  <div id="screen">
+    <div id="header">
+      
+      <div id="menu_button">
+        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+      </div>
+
+      <div id="menu">
+        <ul>
+          <li>
+              <label>Choose Store
+              <select>
+                  <option value="Trader">Trader Joe's</option>
+                  <option value="Whole">Whole Foods</option>
+                  <option value="Roche">Roche Bros</option>
+              </select>
+              </label>
+          </li>
+          <li><a href="shopping_list.html">Shopping List</a></li>
+          <li><a href="cookbook.html">Cookbook</a></li>
+          <li><a href="preferences.html">Preferences</a></li>
+        <ul>
+      </div> 
+
+
+
+
+
+
+       <h1>Spaghetti Squash</h1>
+    </div>
+
+    <div id= "top_button_one">
+      <button onclick="location.href='cookbook.html'">Back</button>
+    </div>
+
+    <div id="main">
+
+      <img id="recipe_img" src="images/lasagna.jpg" alt="Lasagna">
+
+      <h2> Ingredients </h2>
+        <table>
+          <tr>
+            <td class="amount">1</td>
+            <td>spaghetti squash, halved and seeded</td>
+          </tr>
+          <tr>
+            <td class="amount">2 tbsp</td>
+            <td>vegetable oil</td>
+          </tr>
+          <tr>
+            <td class="amount">1</td>
+            <td>onion, chopped</td>
+          </tr>
+          <tr>
+            <td class="amount">3 clove</td>
+            <td>garlic, minced</td>
+          </tr>
+          <tr>
+            <td class="amount">1/2 cups</td>
+            <td>tomatoes, chopped</td>
+          </tr>
+          <tr>
+            <td class="amount">3/4 cup</td>
+            <td>crumbled feta cheese</td>
+          </tr>
+          <tr>
+            <td class="amount">3 tbsp</td>
+            <td>sliced black olives</td>
+          </tr>
+          <tr>
+            <td class="amount">2 tbsp</td>
+            <td>chopped fresh basil</td>
+          </tr>
+        </table> 
+
+        <h2>Directions/Notes</h2>
+        <p>
+          Preheat oven to 350 degrees F (175 degrees C). Lightly grease a baking sheet.
+        </p>
+        <p>
+         Place spaghetti squash with cut sides down on the prepared baking sheet, and bake 30 minutes in the preheated oven, or until a sharp knife can be inserted with only a little resistance. Remove squash from oven and set aside to cool enough to be easily handled.
+        </p>
+        <p>
+          Meanwhile, heat oil in a skillet over medium heat. Cook and stir onion in oil until tender. Add garlic; cook and stir until fragrant, 2 to 3 minutes. Stir in tomatoes and cook until tomatoes are warmed through.
+        </p>
+        <p>
+          Use a large spoon to scoop the stringy pulp from the squash and place in a medium bowl. Toss with the vegetables, feta cheese, olives, and basil. Serve warm.
+        </p>
+    </div>
+
+    <div id= "bottom_button_one">
+    <button onclick="myFunction()">Email</button>
+    <script>
+
+    function myFunction() {
+        var person = prompt("Send recipe to:");
+        
+        if (person != null) {
+            document.getElementById("demo").innerHTML =
+            "Email sent to " + person ;
+        }
+    }
+
+    </script>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Black bean burgers</title>
+    <script type='text/javascript' src='javascript/main.js'></script>
+  <script type='text/javascript' src='javascript/add_recipe.js'></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/individual_recipe.css">
+</head>
+<body>
+  <div id="screen">
+    <div id="header">
+      
+      <div id="menu_button">
+        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+      </div>
+
+      <div id="menu">
+        <ul>
+          <li>
+              <label>Choose Store
+              <select>
+                  <option value="Trader">Trader Joe's</option>
+                  <option value="Whole">Whole Foods</option>
+                  <option value="Roche">Roche Bros</option>
+              </select>
+              </label>
+          </li>
+          <li><a href="shopping_list.html">Shopping List</a></li>
+          <li><a href="cookbook.html">Cookbook</a></li>
+          <li><a href="preferences.html">Preferences</a></li>
+        <ul>
+      </div> 
+
+
+
+
+
+
+       <h1>Black bean burgers</h1>
+    </div>
+
+    <div id= "top_button_one">
+      <button onclick="location.href='cookbook.html'">Back</button>
+    </div>
+
+    <div id="main">
+
+      <img id="recipe_img" src="images/lasagna.jpg" alt="Lasagna">
+
+      <h2> Ingredients </h2>
+        <table>
+          <tr>
+            <td class="amount">1 16 oz can</td>
+            <td>black beans, drained and rinsed</td>
+          </tr>
+          <tr>
+            <td class="amount">1/2</td>
+            <td>Chopped green bell pepper</td>
+          </tr>
+          <tr>
+            <td class="amount">1/2</td>
+            <td>onion</td>
+          </tr>
+          <tr>
+            <td class="amount">3 cloves</td>
+            <td>garlic, peeled</td>
+          </tr>
+          <tr>
+            <td class="amount">1</td>
+            <td>egg</td>
+          </tr>
+          <tr>
+            <td class="amount">1 tbsp</td>
+            <td>chili powder</td>
+          </tr>
+          <tr>
+            <td class="amount">1 tbsp</td>
+            <td>cumin</td>
+          </tr>
+          <tr>
+            <td class="amount">1 tsp</td>
+            <td>hot sauce</td>
+          </tr>
+          <tr>
+            <td class="amount">1/2 cup</td>
+            <td>bread crumbs</td>
+          </tr>
+        </table> 
+
+        <h2>Directions/Notes</h2>
+        <p>
+          If grilling, preheat an outdoor grill for high heat, and lightly oil a sheet of aluminum foil. If baking, preheat oven to 375 degrees F (190 degrees C), and lightly oil a baking sheet.
+        </p>
+        <p>
+         In a medium bowl, mash black beans with a fork until thick and pasty.
+        </p>
+        <p>
+          In a food processor, finely chop bell pepper, onion, and garlic. Then stir into mashed beans.
+        </p>
+        <p>
+          In a small bowl, stir together egg, chili powder, cumin, and chili sauce.
+        </p>
+        <p>
+          Stir the egg mixture into the mashed beans. Mix in bread crumbs until the mixture is sticky and holds together. Divide mixture into four patties.
+        </p>
+        <p>
+          If grilling, place patties on foil, and grill about 8 minutes on each side. If baking, place patties on baking sheet, and bake about 10 minutes on each side.
+        </p>
+    </div>
+
+    <div id= "bottom_button_one">
+    <button onclick="myFunction()">Email</button>
+    <script>
+
+    function myFunction() {
+        var person = prompt("Send recipe to:");
+        
+        if (person != null) {
+            document.getElementById("demo").innerHTML =
+            "Email sent to " + person ;
+        }
+    }
+
+    </script>
+    </div>
+
+</body>
+</html>
