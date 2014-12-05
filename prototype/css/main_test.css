@@ -31,7 +31,7 @@ body {
     text-align: center;
     color: #FFFFFF;
     /*font-size: 100px;*/
-    font-size:450%;
+    font-size:250%;
 }
 
 #menu_button{
@@ -91,16 +91,15 @@ button{
 }
 
 .nav_button{
-    width: 25%;
+    width: 35%;
     height: 100%;
-    font-size: 300%;
-    text-decoration: none;
+    font-size: 250%
 }
 
 #top_buttons{
     position: absolute;
-    top: 10%;
-    height: 8%;
+    top: 12%;
+    height: 10%;
     width: 100%;
 }
 
@@ -118,7 +117,7 @@ button{
 #bottom_buttons{
     position: absolute;
     bottom: 0px;
-    height: 8%;
+    height: 10%;
     width: 100%;
 }
 
@@ -130,6 +129,28 @@ button{
 #bottom_button_two{
     position: absolute;
     right: 0px;
+}
+
+
+#form{
+    position: absolute;
+    left: 0px;
+    top: 170px;
+    margin: 20px;
+}
+
+#form button{
+    height: 50px;
+    width: 60px;
+    font-size: 10pt;
+    background-color: #2D7FB4;
+    color: #FFFFFF;
+}
+
+#form input[type=text]{
+    width: 400px;
+    height: 50px;
+    font-size: 15pt;
 }
 
 .meal{
@@ -222,15 +243,15 @@ button{
     position: absolute;
     left: 0px;
     top: 240px;
-    width: 80%;
-    height: 60%;
+    width: 560px;
+    height: 520px;
     margin: 20px;
     border: 1px solid #2D7FB4;
 }
 
 .ingredient{
-    width: 55%;
-    height: 15%;
+    width: 500px;
+    height: 50px;
     margin: 30px;
     border: 1px solid #2D7FB4;
 }
@@ -291,7 +312,101 @@ button{
 
 
 
+.listItem{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    border: .5px solid black;
+}
 
+
+.listItem h2{
+    font-size: 15pt;
+    text-indent: 15px;
+}
+
+.listItem .coupons{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    font-size: 12pt;
+}
+
+.listItem input[type=image]{
+    height: 15px;
+    width: 30px;
+}
+
+.listItem a{
+    text-decoration: none;
+    color: #2D7FB4;
+}
+
+#listItem_one{
+    left: 0px;
+    top: 290px;
+}
+
+#listItem_two{
+    position:absolute;
+    left: 0px;
+    top: 340px;
+}
+
+#listItem_three{
+    left: 0px;
+    top: 390px;
+}
+
+#listItem_four{
+    left: 0px;
+    top: 440px;
+}
+
+#listItem_five{
+    left: 0px;
+    top: 490px;
+}
+
+#listItem_six{
+    left: 0px;
+    top: 540px;
+}
+
+#listItem_seven{
+    left: 0px;
+    top: 590px;
+}
+
+#listItem_eight{
+    left: 0px;
+    top: 640px;
+}
+
+#listItem_nine{
+    left: 0px;
+    top: 690px;
+}
+
+#listItem_ten{
+    left: 0px;
+    top: 740px;
+}
+
+#listItem_eleven{
+    left: 0px;
+    top: 790px;
+}
+
+#listItem_twelve{
+    left: 0px;
+    top: 840px;
+}
+
+#listItem_thirteen{
+    left: 0px;
+    top: 890px;
+}
 
 
 
