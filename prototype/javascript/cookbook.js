@@ -83,17 +83,24 @@ function no_results(){
 	return;
 }
 
-function add_meal(title, src, coupons,categories, servings){
+function add_meal(title, src, coupons,servings){
 	var parent = document.getElementById("meals");
-	var div = document.createElement("div");
+	var meal = document.createElement("div");
 	div.class = "meal";
 	var title = document.createElemtent("h2");
 	title.innerHTML = "title".join();
-
 	var image = document.createElement('img');
 	image.src = src;
-	iframe.className = "video";
-	parent.appendChild(iframe);
+	var coupons = document.createElement('p');
+	coupons.innerHTML = "Availble Coupons:" + coupons;
+	var servings = document.createElement('p');
+	servings.innerHTML = "Servings:" + servings;
+	parent.appendChild(meal);
+	meal.appendChild(title);
+	meal.appendChild(image);
+	meal.appendChild(coupons);
+	meal.appendChild(servings);
+
 }
 
 function publish(results){
