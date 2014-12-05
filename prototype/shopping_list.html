@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="css/list.css">
   </head>
   <body>
+
+    <div id="menu_button">
+      <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+    </div>
     <div id="header">
 
       <div id="title_div">
         <span id="title">Shopping List</span>
-      </div>
-        
-      <div id="menu_button">
-        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
       </div>
 
       <div id="menu">
@@ -47,25 +47,29 @@
     <input type="text" name="query" id="query" oninput="show('cookie_popup')" value="add an item"/>
     </form> 
 
-    <div>
+    <div id="listDiv">
       <div class="listItem" id="listItem_one" onchange="crossoff(id)"> 
       <h2><input type="checkbox">1 lb Meatloaf Mix</h2>
       <p class="coupons"><a href="coupontwo.html">2 Coupons</a></p>
+      <div style="clear:both"></div>
       </div>
 
       <div class="listItem" id="listItem_two" onchange="crossoff(id)">    
       <h2><input type="checkbox">Barillo Lasagna</h2>
       <p class="coupons"><a href="coupons.html">$3 off</a></p>
+      <div style="clear:both"></div>
       </div>
 
       <div class="listItem" id="listItem_three" onchange="crossoff(id)">   
       <h2><input type="checkbox">1 can Tomato Sauce</h2>
       <p class="coupons"></p>
+      <div style="clear:both"></div>
       </div>
 
       <div class="listItem" id="listItem_four" onchange="crossoff(id)">   
       <h2><input type="checkbox">Red Pepper Flakes</h2>
       <p class="coupons"></p>
+      <div style="clear:both"></div>
       </div>
 
       <div style="clear:both"></div>

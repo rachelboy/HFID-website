@@ -18,10 +18,11 @@ body {
 
 
 #header {
-    position:absolute;
-    margin: 0 auto;
+    /*position: absolute;*/
+    float:right;
+    clear:right;
     top: 0px;
-    width:100%;    
+    width:95%;    
     height:8%;
     border-bottom:1px solid #000000;
     background-color: #2D7FB4;
@@ -29,20 +30,22 @@ body {
 
 #header #title_div{
     text-align: center;
+    float:center;
     color: #FFFFFF;
-    /*font-size: 100px;*/
+    font-size: 100px;
     font-size:450%;
 }
 
 #menu_button{
-    position: absolute;
-    top: 5%;
-    left: 1.5%;
-    height: 90%;
+    float:left;
+    clear:left;
+/*    top: 2%;
+    left: 1.5%;*/
+    width: 5%;
 }
 
 #menu_button img{
-    height: 100%;
+    width: 100%;
 }
 
 #menu{
@@ -95,41 +98,46 @@ button{
     height: 100%;
     font-size: 300%;
     text-decoration: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 #top_buttons{
-    position: absolute;
-    top: 10%;
+    /*position: absolute;*/
+    /*top: 10%;
     height: 8%;
-    width: 100%;
+    width: 100%;*/
 }
 
 #top_button_one{
-    position: absolute;
-    left: 0px;
-    z-index: 0;
+    float:left;
+    /*clear:left;*/
 }
 
 #top_button_two{
-    position: absolute;
-    right: 0px;
+    float:right;
+    /*clear:right;*/
 }
 
 #bottom_buttons{
-    position: fixed;
-    bottom:0;
+    /*position: fixed;*/
+    /*bottom:0;*/
     height: 8%;
     width: 100%;
 }
 
 #bottom_button_one{
-    position: absolute;
-    left: 0px;
+    /*position: absolute;
+    left: 0px;*/
+    float:left;
+    clear:left;
 }
 
 #bottom_button_two{
-    position: absolute;
-    right: 0px;
+    /*position: absolute;
+    right: 0px;*/
+    float:right;
+    clear:right;
 }
 
 #form {
