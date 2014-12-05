@@ -8,9 +8,12 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div id="screen">
-    <div id="header">
-      
+  <div id="header">
+
+      <div id="title_div">
+        <span id="title">Cookbook</span>
+      </div>
+        
       <div id="menu_button">
         <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
       </div>
@@ -19,37 +22,34 @@
         <ul>
           <li>
               <label>Choose Store
-              <select>
-                  <option value="Trader">Trader Joe's</option>
-                  <option value="Whole">Whole Foods</option>
-                  <option value="Roche">Roche Bros</option>
-              </select>
+                <select>
+                    <option value="Trader">Trader Joe's</option>
+                    <option value="Whole">Whole Foods</option>
+                    <option value="Roche">Roche Bros</option>
+                </select>
               </label>
           </li>
           <li><a href="shopping_list.html">Shopping List</a></li>
-          <li><a href="cookbook.html">Cookbook</a></li>
-          <li><a href="preferences.html">Preferences</a></li>
+          <li><a href="shopping_list.html">Cookbook</a></li>
+          <li><a href="shopping_list.html">Preferences</a></li>
         <ul>
       </div>  
-
-       <h1>Cookbook</h1>
     </div>
 
    
-    <div id= "top_button_one">
+    <div id= "top_buttons">
     
-      <select>
+      <select id="top_button_one" class="nav_button">
       <option value="favorites">Favorites</option>
       <option value="price">Price</option>
       <option value="coupons">Coupons</option>
       <option value="recentlybought">Recently Bought</option>
       </select>
+
+      <a href="add_recipe.html"><button id="top_button_two" class="nav_button">Add Recipe</button></a>
     
     </div>
-  
-    <div id= "top_button_two">
-    <a href="add_recipe.html"><button>Add Recipe</button></a>
-    </div>
+
 
     <form id="form" action="">  
     <input type="text" name="query" id="query"/>
@@ -94,12 +94,5 @@
 
   </div>
   
-
-
-
-    
-
-
- </div>
 </body>
 </html>
