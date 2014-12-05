@@ -25,6 +25,7 @@
         <li><a href="HFIDgroupevaluation.pdf">Heuristic Evaluation</a></li>
         <li><a href="design_refinement_presentation.pdf">Design Refinement Presentation</a></li>
         <li><a href="design-refinement.php">Design Refinement Report</a></li>
+        <li><a href="formal_usability_test.php">Formal Usabilty Test</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
