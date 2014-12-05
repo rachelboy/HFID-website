@@ -83,11 +83,15 @@ function no_results(){
 	return;
 }
 
-function add_meal(url){
-	var parent = document.getElementById("content");
+function add_meal(title, src, coupons,categories, servings){
+	var parent = document.getElementById("meals");
 	var div = document.createElement("div");
-	div.class = "meal"
-	iframe.src = url;
+	div.class = "meal";
+	var title = document.createElemtent("h2");
+	title.innerHTML = "title".join();
+
+	var image = document.createElement('img');
+	image.src = src;
 	iframe.className = "video";
 	parent.appendChild(iframe);
 }
