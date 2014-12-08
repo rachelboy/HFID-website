@@ -2,16 +2,17 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Framework Test Page</title>
+  <title>Cookbook</title>
   <script type='text/javascript' src='javascript/main.js'></script>
   <script type='text/javascript' src='javascript/cookbook.js'></script>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/cookbook.css">
 </head>
 <body>
 
   <div id="menu_button">
-      <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
-    </div>
+    <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+  </div>
 
   <div id="header">
 
@@ -37,6 +38,7 @@
       </div>  
     </div>
 
+    <div style="clear:both"></div>
    
     <div id= "top_buttons">
     
@@ -56,47 +58,55 @@
     <input type="text" name="query" id="query"/>
     <button type="button" onclick="(publish(search(meals, get_query())))">Search</button>
     </form> 
-
-  <div id="screen">
   
   <div id="meals">
     
     <div class="meal" id="meal_one">
-    <a href="lasagna_recipe.html"/>
-      <h2>Stovetop Lasagna</h2>
-      <img src="images/lasagna.jpg" alt="Lasagna">
-      <p class="coupons">Available Coupons: 5</p>
-      <p class="servings">Servings: 4</p>
-    </a>
+      <a href="lasagna_recipe.html"/>
+        <div class="meal_description">
+          <img src="images/lasagna.jpg" alt="Lasagna">
+          <div style="float:right">
+            <p class="meal_name">Stovetop Lasagna</p>
+            <p class="coupons">Available Coupons: 5</p>
+            <p class="servings">Servings: 4</p>
+          </div>
+        </div>
+      </a>
 
-
-    <a href="ingredients_lasagna.html"><button>Add to List</button></a>
+      <a href="ingredients_lasagna.html"><button>Add to List</button></a>
+      <div style="clear:both"></div>
     </div>
 
     <div class="meal" id="meal_two">
-    
-    <h2>Tomato Soup</h2>
-    <img src="images/soup.png" alt="Tomato Soup">
-    <p class="coupons">Available Coupons: 5</p>
-    <p class="servings">Servings: 4</p>
+      <div class="meal_description">
+        <img src="images/soup.png" alt="Tomato Soup">
+        <div style="float:right">
+          <p class="meal_name">Tomato Soup</p>
+          <p class="coupons">Available Coupons: 5</p>
+          <p class="servings">Servings: 4</p>
+        </div>
+      </div>
 
 
-    <button>Add to List</button>
+      <button>Add to List</button>
+      <div style="clear:both"></div>
     </div>
 
     <div class="meal" id="meal_three">
-    
-    <h2>Tortellini w/ Alfredo</h2>
-    <img src="images/tort.png" alt="Tortellini w/ Alfredo">
-    <p class="coupons">Available Coupons: 5</p>
-    <p class="servings">Servings: 4</p>
-    
+      <div class="meal_description">
+        <img src="images/tort.png" alt="Tortellini w/ Alfredo">
+        <div style="float:right">
+          <p class="meal_name">Tortellini w/ Alfredo</p>
+          <p class="coupons">Available Coupons: 5</p>
+          <p class="servings">Servings: 4</p>
+        </div>
+      </div>
 
-  
-    <button>Add to List</button>
-  </div>
 
-  </div>
+      <button>Add to List</button>
+      <div style="clear:both"></div>
+    </div>
+
   </div>
 </body>
 </html>

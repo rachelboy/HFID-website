@@ -6,6 +6,7 @@ function toggle(element)
 
 function show(element)
 {
+    console.log("hello")
     var menu=document.getElementById(element);
     menu.style.display = 'block';
 }
