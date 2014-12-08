@@ -160,72 +160,7 @@ button{
 
 
 
-#ingredients{
-    position: absolute;
-    left: 0px;
-    top: 240px;
-    width: 80%;
-    height: 60%;
-    margin: 20px;
-    border: 1px solid #2D7FB4;
-}
 
-.ingredient{
-    width: 55%;
-    height: 15%;
-    margin: 30px;
-    border: 1px solid #2D7FB4;
-}
-
-.ingredient p{
-    display: inline;
-    line-height: 50px;
-    font-size: 25pt;
-}
-
-.ingredient input[type=image]{
-    height: 40px;
-    width: 40px;
-    margin: 20px;
-}
-
-#ingredient1 input[type=image]{
-    position: absolute;
-    top: 20px;
-    right: 15px;
-
-}
-
-#ingredient2 input[type=image]{
-    position: absolute;
-    top: 100px;
-    right: 15px;
-}
-
-#ingredient3 input[type=image]{
-    position: absolute;
-    top: 180px;
-    right: 15px;
-}
-
-#ingredient4 input[type=image]{
-    position: absolute;
-    top: 260px;
-    right: 15px;
-
-}
-
-#ingredient5 input[type=image]{
-    position: absolute;
-    top: 340px;
-    right: 15px;
-}
-
-#ingredient6 input[type=image]{
-    position: absolute;
-    top: 420px;
-    right: 15px;
-}
 
 .preferenceItem{
     position: absolute;

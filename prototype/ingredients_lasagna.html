@@ -5,84 +5,92 @@
   <title>Add Ingredients</title>
   <script type='text/javascript' src='javascript/main.js'></script>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/add_ingredients.css">
 </head>
 <body>
-  <div id="screen">
-    <div id="header">
-      
-      <div id="menu_button">
-        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
-      </div>
 
-      <div id="menu">
-        <ul>
-          <li>
-              <label>Choose Store
+  <div id="menu_button">
+    <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+  </div>
+
+  <div id="header">
+
+    <div id="title_div">
+      <span id="title">Add Ingredients</span>
+    </div>
+
+    <div id="menu">
+      <ul>
+        <li>
+            <label>Choose Store
               <select>
                   <option value="Trader">Trader Joe's</option>
                   <option value="Whole">Whole Foods</option>
                   <option value="Roche">Roche Bros</option>
               </select>
-              </label>
-          </li>
-          <li><a href="shopping_list.html">Shopping List</a></li>
-          <li><a href="cookbook.html">Cookbook</a></li>
-          <li><a href="preferences.html">Preferences</a></li>
-        <ul>
-      </div>  
+            </label>
+        </li>
+        <li><a href="shopping_list.html">Shopping List</a></li>
+        <li><a href="shopping_list.html">Cookbook</a></li>
+        <li><a href="shopping_list.html">Preferences</a></li>
+      <ul>
+    </div>  
+  </div>
 
-       <h1>Ingredients</h1>
-    </div>
+  <div style="clear:both"></div>
 
-   
-    <div id= "top_button_one">
-    <a href="cookbook.html"><button>Back</button></a>
-    </div>
+  <div id="top_buttons">
+    <a href="cookbook.html">
+      <button id= "top_button_one" class="nav_button">Back</button>
+    </a>
+    <a href="shopping_list.html">
+      <button id= "top_button_two" class="nav_button">List</button>
+    </a>
+    <div style="clear:both"></div>
+  </div>
 
-    <div id= "top_button_two">
-    <a href="shopping_list.html"><button>List</button></a>
-    </div>
-
-    <h2 id="meal_title">Stovetop Lasagna</h2>
-    <div id="ingredients">
-      
-      <div class="ingredient" id="ingredient1">
-      <p>Kosher Salt</p>
-      <input type="image" id="ingredientimage1" src="images/add.png" alt="add" onclick="add(id)"> 
-      </div>
-
-      <div class="ingredient" id="ingredient2">
-      <p>Lasanga Noodles</p>
-      <input type="image" id="ingredientimage2" src="images/add.png" alt="add" onclick="add(id)"> 
-      </div>
-
-      <div class="ingredient" id="ingredient3">
-      <p>Olive Oil</p>
-      <input type="image" id="ingredientimage3" src="images/add.png" alt="add" onclick="add(id)"> 
-      </div>
-
-      <div class="ingredient" id="ingredient4">
-      <p>Meatloaf Mix</p>
-      <input type="image" id="ingredientimage4" src="images/add.png" alt="add" onclick="add(id)"> 
-      </div>
-
-      <div class="ingredient" id="ingredient5">
-      <p>Tomato Sauce</p>
-      <input type="image" id="ingredientimage5" src="images/add.png" alt="add" onclick="add(id)"> 
-      </div>
-
-      <div class="ingredient" id="ingredient6">
-      <p>Red Pepper Flakes</p>
-      <input type="image" id="ingredientimage6" src="images/add.png" alt="add" onclick="add(id)"> 
-      </div>
-
-      
+  <h2 id="meal_title">Stovetop Lasagna</h2>
+  <div id="ingredients">
     
+    <div class="ingredient" id="ingredient1">
+    <p>Kosher Salt</p>
+    <input type="image" id="ingredientimage1" src="images/add.png" alt="add" onclick="add(id)"> 
     </div>
 
-      <div id= "bottom_button_two">
-      <a href="shopping_list.html"><button>Add all items to list</button></a>
-      </div>
+    <div class="ingredient" id="ingredient2">
+    <p>Lasanga Noodles</p>
+    <input type="image" id="ingredientimage2" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    <div class="ingredient" id="ingredient3">
+    <p>Olive Oil</p>
+    <input type="image" id="ingredientimage3" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    <div class="ingredient" id="ingredient4">
+    <p>Meatloaf Mix</p>
+    <input type="image" id="ingredientimage4" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    <div class="ingredient" id="ingredient5">
+    <p>Tomato Sauce</p>
+    <input type="image" id="ingredientimage5" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    <div class="ingredient" id="ingredient6">
+    <p>Red Pepper Flakes</p>
+    <input type="image" id="ingredientimage6" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    
+  
+  </div>
+
+  <div id = "bottom_buttons">
+    <a href="shopping_list.html">
+      <button id= "bottom_button_two" class="nav_button">Add all items to list</button>
+    </a>
+  </div>
 
  </div>
 </body>

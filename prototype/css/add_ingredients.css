@@ -1,0 +1,30 @@
+#meal_title{
+    font-size: 300%;
+    text-align: center;
+}
+
+#ingredients{
+    width: 80%;
+    margin: 2% 10%;
+    border: 3px solid #2D7FB4;
+}
+
+.ingredient{
+    width: 96%;
+    height: 15%;
+    margin: 2%;
+    border: 1px solid #2D7FB4;
+}
+
+.ingredient p{
+    display: inline;
+    line-height: 50px;
+    font-size: 25pt;
+}
+
+.ingredient input[type=image]{
+    float: right;
+    clear: right;
+    width: 4%;
+    margin: .5%;
+}
