@@ -1,0 +1,27 @@
+#coupon_description{
+    width: 100%;
+    text-align: center;
+}
+
+#coupon{
+    margin-left: 35%;
+    width: 30%;
+}
+
+#coupon_rightarrow{
+    position:absolute;
+    top:40%;
+    right:5%;
+    width: 10%;
+    height: 50%;
+    margin: 0px 2%;
+}
+
+#coupon_leftarrow{
+    position:absolute;
+    top:40%;
+    left:5%;
+    width: 10%;
+    height: 50%;
+    margin: 0px 2%;
+}
