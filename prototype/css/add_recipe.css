@@ -47,9 +47,17 @@
     box-shadow: 0 0 2px 1px #969696;
 }
 
-#picture_button{
-    position: absolute;
-    right: 0px;
+#picture_add{
+    float:right;
+    font-size: 100%
+}
+
+#main #name_and_pic_div{
+    width:100%;
+}
+
+#main #name_and_pic_div #name_div{
+    width:80%;
 }
 
 #main #prep_div {
