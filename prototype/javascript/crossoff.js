@@ -16,13 +16,27 @@ function cookies_clicked(cookie,deal)
     //http://jsfiddle.net/wLRwS/1/
 
     var stuff = document.getElementById("listDiv")
-    var append = "<div class=\"listItem\" id=\"listItem_five\" onclick=\"crossoff(id)\">   <h2>"+cookie+"</h2><p class=\"coupons\">"+deal+"</p></div>"
+    var append = "<div class=\"listItem\" id=\"listItem5\" onclick=\"crossoff(id)\">   <h2>"+cookie+"</h2><p class=\"coupons\">"+deal+"</p></div>"
     stuff.innerHTML = stuff.innerHTML + append
 
     var menu=document.getElementById('cookie_popup');
     menu.style.display = 'none';
 
+    var element = document.createElement("div");
+    element.setAttribute("class", "listItem");
+    element.setAttribute("id", "listItem???????????????????");
+    element.setAttribute("onchange","crossoff")
+    element.innerHTML = '<h2><input type="checkbox">'+FOODNAME+'</h2>
+      <p class="coupons"><a href="coupons.html">$3 off</a></p>
+      <div style="clear:both"></div>';
+    element.onclick = function ()
+      
+
+
+
 }
+
+
 
 function cross_all(items){
     
