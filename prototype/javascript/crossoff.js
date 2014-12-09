@@ -23,3 +23,7 @@ function cookies_clicked(cookie,deal)
     menu.style.display = 'none';
 
 }
+
+function cross_all(items){
+    
+}
