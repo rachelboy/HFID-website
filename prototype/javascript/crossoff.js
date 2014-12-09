@@ -13,7 +13,7 @@ function crossoff(listitem)
 function cookies_clicked(cookie,deal)
 {
     //http://stackoverflow.com/questions/20673959/how-to-add-new-li-to-ul-onclick-with-javascript
-
+    //http://jsfiddle.net/wLRwS/1/
 
     var stuff = document.getElementById("listDiv")
     var append = "<div class=\"listItem\" id=\"listItem_five\" onclick=\"crossoff(id)\">   <h2>"+cookie+"</h2><p class=\"coupons\">"+deal+"</p></div>"
