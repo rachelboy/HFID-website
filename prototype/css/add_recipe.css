@@ -1,6 +1,6 @@
 #main{
-    position: absolute;
-    left: 3%;
+    /*position: absolute;*/
+    margin-left: 3%;
     top: 20%;
     padding: 2%;
     width: 90%;
@@ -45,6 +45,19 @@
 #main textarea.focus {
     border: solid 1px #707070;
     box-shadow: 0 0 2px 1px #969696;
+}
+
+#picture_add{
+    float:right;
+    width:15%;
+}
+
+#main #name_and_pic_div{
+    width:100%;
+}
+
+#main #name_and_pic_div #name_div{
+    width:80%;
 }
 
 #main #prep_div {

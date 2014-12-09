@@ -5,56 +5,61 @@
   <title>Coupon</title>
   <script type='text/javascript' src='javascript/main.js'></script>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/coupons.css">
 </head>
 <body>
-  <div id="screen">
-    <div id="header">
-      
-      <div id="menu_button">
-        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
-      </div>
 
-      <div id="menu">
-        <ul>
-          <li>
-              <label>Choose Store
+  <div id="menu_button">
+      <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+  </div>
+
+  <div id="header">
+
+    <div id="title_div">
+      <span id="title">Coupons</span>
+    </div>
+
+    <div id="menu">
+      <ul>
+        <li>
+            <label>Choose Store
               <select>
                   <option value="Trader">Trader Joe's</option>
                   <option value="Whole">Whole Foods</option>
                   <option value="Roche">Roche Bros</option>
               </select>
-              </label>
-          </li>
-          <li><a href="shopping_list.html">Shopping List</a></li>
-          <li><a href="cookbook.html">Cookbook</a></li>
-          <li><a href="shopping_list.html">Preferences</a></li>
-        <ul>
-      </div>  
+            </label>
+        </li>
+        <li><a href="shopping_list.html">Shopping List</a></li>
+        <li><a href="shopping_list.html">Cookbook</a></li>
+        <li><a href="shopping_list.html">Preferences</a></li>
+      <ul>
+    </div>  
+  </div>
+
+  <div style="clear:both"></div>
+
+  <div id="top_buttons">
+    <a href="shopping_list.html">
+    <button id= "top_button_one" class="nav_button">Back to List</button>
+    </a>
+  </div>
+
+  <div style="clear:both"></div>
+
+  <div id="coupon_description">
+  <h2>$3 OFF Barilla Lasagna</h2>
+  <h3>Trader Joes: exp 11/25/2014</h3>
+  </div>
 
 
 
-       <h1>Coupons</h1>
-    </div>
-
-   
-    <div id= "top_button_one">
-    <a href="shopping_list.html"><button>Back to List</button></a>
-    </div>
-
-<div id="coupon_description">
-<h2>$3 OFF Barilla Lasagna</h2>
-<h3>Trader Joes: exp 11/25/2014</h3>
-</div>
+  <img id="coupon" src="images/barcode.jpg" alt="coupon">
 
 
+  <a href="coupontwo.html">
+    <img id="coupon_rightarrow" src="images/rightarrow.png" alt="coupon">
+  </a>
 
-<img id="coupon" src="images/barcode.jpg" alt="coupon">
-
-
-<a href="coupontwo.html"><img id="coupon_rightarrow" src="images/rightarrow.png" alt="coupon"></a>
-
-
-
- </div>
 </body>
 </html>

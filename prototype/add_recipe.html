@@ -10,14 +10,15 @@
   <link rel="stylesheet" href="css/add_recipe.css">
 </head>
 <body>
+
+
+  <div id="menu_button">
+    <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+  </div>
   <div id="header">
 
     <div id="title_div">
       <span id="title">Add a Recipe</span>
-    </div>
-      
-    <div id="menu_button">
-      <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
     </div>
 
     <div id="menu">
@@ -38,31 +39,33 @@
     </div>  
   </div>
 
-  <!-- I hhave assigned this function to top button as a placeholder, also The fucntion should use alert, but that is the only word that i have changed in the function. it needs to be less dynamic-->
 
-  <div id="top_buttons">
-      <button id= "top_button_two" class="nav_button" onclick="myFunction()">
-        Email
-      </button>
-      <script>
-
-    function myFunction() {
-        var person = alert("This will be the system dialogue for adding photos");
-        
-        if (person != null) {
-            document.getElementById("demo").innerHTML =
-            "Email sent to " + person ;
-        }
-    }
-
-    </script>
-  </div>
 
   <div id="main">
-    <div>
+    <div id="name_and_pic_div">
       <h2>Name</h2>
-      <input class="inputs" type="text" name="recipename">
+      <div id="picture_add">  
+        <button onclick="myFunction()">Add a Photo</button>
+        <script>
+
+        function myFunction() {
+            var person = alert("This will be the system dialogue for adding photos");
+        }
+        </script>
+      </div>
+      <div id="name_div">
+        <input class="inputs" type="text" name="recipename">
+      </div>
     </div>
+
+
+
+
+  
+
+
+
+
     <div>
       <div id="prep_div">
         <h2>Preparation Time</h2>

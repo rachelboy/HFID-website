@@ -5,18 +5,18 @@
     <title>Framework Test Page</title>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type='text/javascript' src='javascript/main.js'></script>
-    <link rel="stylesheet" href="css/main_test.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+
+    <div id="menu_button">
+        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+    </div>
 
     <div id="header">
 
       <div id="title_div">
         <span id="title">Page Title</span>
-      </div>
-        
-      <div id="menu_button">
-        <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
       </div>
 
       <div id="menu">
@@ -35,6 +35,7 @@
           <li><a href="shopping_list.html">Preferences</a></li>
         <ul>
       </div>  
+      <div style="clear:both"></div>
     </div>
 
     <div id="top_buttons">
@@ -50,8 +51,8 @@
   </body>
 </html>
 
-// <script type="text/javascript">
+<script type="text/javascript">
 //   while( $('#header #title').height() > $('#header').height() ) {
 //       $('#header #title').css('font-size', (parseInt($('#header #title').css('font-size')) - 1) + "px" );
 //     }
-// </script>
+</script>
