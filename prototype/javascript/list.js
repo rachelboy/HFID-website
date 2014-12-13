@@ -18,6 +18,7 @@ function addListItem(name, coupons){
     var element = document.createElement("div");
     element.setAttribute("class", "listItem");
     element.setAttribute("onchange","crossoff(id)");
+    element.setAttribute("id",name);
     element.innerHTML = '<h2><input type="checkbox">'+name+'</h2> <p class="coupons"><a href="coupons.html">'+coupons+'</a></p> <div style="clear:both"></div>';
     
     var list = document.getElementById('listDiv');
