@@ -2,6 +2,7 @@ function toggle(element)
 {
     var menu=document.getElementById(element);
     menu.style.display = (menu.style.display === 'block') ? 'none':'block';
+    menu.focus();
 }
 
 function show(element)
