@@ -81,7 +81,7 @@ select{
 
 
 #search_button{
-    font-size: 135%;
+    font-size: 300%;
     width: 15%;
     margin-left: 2.5%;
 }
@@ -154,7 +154,7 @@ button{
 #form input[type="text"] {
     width: 80%;
     height: 135%;
-    font-size: 3s00%;
+    font-size: 300%;
 }
 
 
