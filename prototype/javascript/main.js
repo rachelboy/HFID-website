@@ -27,7 +27,8 @@ function get_all_ingredients(){
 	
 function add_all_ingredients(all_ingredients){
 	for(var i=0; i<=all_ingredients.length; i++){
-		add(all_ingredients[i]);
+		var image=document.getElementById(all_ingredients[i]);
+  		image.src = 'images/check.png';
 	}
 }
 
