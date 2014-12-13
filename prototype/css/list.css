@@ -24,6 +24,10 @@
     color: black;
 }
 
+#query {
+    width:100%;
+}
+
 
 #listDiv{
     margin-left: 5%;
