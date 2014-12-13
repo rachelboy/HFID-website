@@ -2,11 +2,12 @@ function toggle(element)
 {
     var menu=document.getElementById(element);
     menu.style.display = (menu.style.display === 'block') ? 'none':'block';
+    menu.focus();
 }
 
 function show(element)
 {
-    console.log("hello")
+    console.log("hello");
     var menu=document.getElementById(element);
     menu.style.display = 'block';
 }
@@ -19,7 +20,7 @@ function add(image){
 function get_all_ingredients(){
 	all_ingredients = []
 	for(var i=1; i<=6; i++){
-		all_ingredients.push("ingredientimage" + i)
+		all_ingredients.push("ingredientimage" + i);
 	}
 	return(all_ingredients);
 }
