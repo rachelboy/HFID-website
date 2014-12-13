@@ -80,7 +80,7 @@
         <div style="float:left">
           serves
         </div>
-        <input class="inputs" type="number" name="recipename" value="4">
+        <input class="inputs" type="number" name="recipename" placeholder="4">
         <div>
           people
         </div>
@@ -90,13 +90,13 @@
     <div>
       <div id="add_ingredient">
         <h2>Ingredients</h2>
-        <input class="inputs" type="text" id="ingredientname" value="ingredient name">
+        <input class="inputs" type="text" id="ingredientname" placeholder="ingredient name">
       </div>
       <div id="quantity">
         <h2>Quantity</h2>
         <div id="quantity_def">
           <input class="inputs" type="number" id="ingredientnum">
-          <input class="inputs" type="text" id="ingredientunits" value="units">
+          <input class="inputs" type="text" id="ingredientunits" placeholder="units">
         </div>
         <button class="inputs" type="button" onclick="add_ingredient()">+</button> 
       </div>
@@ -115,8 +115,15 @@
   </div>
   <div id = "bottom_buttons">
     <a href="cookbook.html">
-      <button id= "bottom_button_one" class="nav_button">Add Recipe</button>
+      <button id= "bottom_button_one" class="nav_button"  onclick="myFunction()">Add Recipe</button>
     </a>
+
+    <script>
+      function myFunction() {
+        alert("Recipe Added!");
+      }
+    </script>
+    
     <a href="cookbook.html">
       <button id= "bottom_button_two" class="nav_button">Cancel</button>
     </a>
@@ -124,3 +131,6 @@
 
 </body>
 </html>
+
+
+
