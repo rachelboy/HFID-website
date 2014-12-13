@@ -37,8 +37,9 @@ body {
 #menu{
     position: absolute;
     top: 150px;
-    width: 300px;
-    height: 350px;
+    left: 0px;
+    width: 425px;
+    height: 500px;
     border: 1px solid #2D7FB4;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
@@ -55,22 +56,34 @@ body {
 
 #menu li{
     border-bottom: 1px solid black;
-    font-size: 18pt;
+    font-size: 38pt;
+    padding: 5px;
 }
 
 #menu li a{
     text-decoration: none;
-    font-size: 18pt;
+    font-size: 38pt;
     color: black;
+}
+
+#menu select{
+    width: 320px;
 }
 
 select{
     height: 60px;
     width: 200px;
-    font-size: 18pt;
+    font-size: 38pt;
     background-color: #2D7FB4;
     color: #FFFFFF;
     margin: 20px;
+}
+
+
+#search_button{
+    font-size: 300%;
+    width: 15%;
+    margin-left: 2.5%;
 }
 
 button{
@@ -139,13 +152,10 @@ button{
 }
 
 #form input[type="text"] {
-    width: 100%;
-    height: 100%;
-    font-size: 15pt;
+    width: 80%;
+    height: 135%;
+    font-size: 300%;
 }
-
-
-
 
 
 .preferenceItem{

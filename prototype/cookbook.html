@@ -20,7 +20,7 @@
         <span id="title">Cookbook</span>
       </div>
 
-      <div id="menu">
+      <div id="menu" onblur="toggle('menu')" tabindex="1">
         <ul>
           <li>
               <label>Choose Store
@@ -44,8 +44,8 @@
     
       <select id="top_button_one" class="nav_button" onchange = "(publish(sort(meals)))" >
       <option value="favorites">Favorites</option>
-      <option value="price">Price</option>
-      <option value="coupons">Coupons</option>
+      <option value="affordable">Affordable</option>
+      <option value="healthy">Healthy</option>
       <option value="recentlybought">Recently Bought</option>
       </select>
 
@@ -55,8 +55,8 @@
 
 
     <form id="form" action="">  
-    <input type="text" name="query" id="query"/>
-    <button type="button" onclick="(publish(search(meals, get_query())))">Search</button>
+    <input type="text" name="query" id="query" placeholder ="Search for a Meal"/>
+    <button  id="search_button" type="button" onclick="(publish(search(meals, get_query())))" >Search</button>
     </form> 
   
   <div id="meals">
