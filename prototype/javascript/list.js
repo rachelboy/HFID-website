@@ -5,10 +5,15 @@ function showDropdown(){
     console.log(input);
     var pos = inputbox.getBoundingClientRect();
     var dropdown=document.getElementById('cookie_popup');
-    var style = dropdown.style;
+    if (input === ""){
+        dropdown.style = 'none';
+    }
+    else{
+        var style = dropdown.style;
     style.top = pos.bottom + 'px';
     style.left = pos.left + 'px';
     style.display = 'block';
+    }
 }
 
 function addListItem(name, coupons){
