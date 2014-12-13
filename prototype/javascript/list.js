@@ -24,7 +24,7 @@ function addListItem(name, coupons){
     element.setAttribute("class", "listItem");
     element.setAttribute("onclick","crossoff(id)");
     element.setAttribute("id",name);
-    element.innerHTML = '<h2><input type="checkbox">'+name+'</h2> <div class="extras"> <p class="coupons"><a href="coupons.html">'+coupons+'</a></p> <p class="remove">X</p>  </div> <div style="clear:both"></div>';
+    element.innerHTML = '<h2><input type="checkbox">'+name+'</h2> <div class="extras"> <p class="coupons"><a href="coupons.html">'+coupons+'</a></p> <p class="remove" onclick="ask_remove(\''+name+'\')">X</p>  </div> <div style="clear:both"></div>';
     
     var list = document.getElementById('listDiv');
     var lastitem = list.children.length - 1;
@@ -75,6 +75,24 @@ function remove_item(name){
     }
 }
 
+function change_remove_p(name, content, onclick){
+    var item = document.getElementById(name);
+    var elems = item.getElementsByTagName('p'), i;
+    for (i in elems) {
+        if((' ' + elems[i].className + ' ').indexOf(' remove ')
+                > -1) {
+            elems[i].innerHTML = content
+            elems[i].onclick = onclick
+        }
+    }
+}
+
+function cancel(name){
+    var content = 'X';
+    var onclick = '"ask_remove(\''+name+'\')"';
+    change_remove_p(name, content, onclick)
+}
+
 function remove_checked(){
     console.log("removing checked items");
     var list = document.getElementById('listDiv');
@@ -88,4 +106,11 @@ function remove_checked(){
             console.log("nope");
         }
     }
+}
+
+function ask_remove(name){
+    console.log('so many distinct print debug messages!');
+    content = '<span onclick="remove_item(\''+name+'\')">Remove</span><span onclick="cancel(\''+name+'\')"> | Cancel</span>';
+    onclick = "";
+    change_remove_p(name, content, onclick);
 }
