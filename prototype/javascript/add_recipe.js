@@ -9,7 +9,11 @@ function add_ingredient()
     added_names.innerHTML = added_names.innerHTML + "<p>" + name.value + "</p>";
     added_nums.innerHTML = added_nums.innerHTML + "<p>" + String(num.value) + " " + units.value + "\n</p>";
 
-    name.value = "next ingredient";
-    num.value = 0;
-    units.value = "cups";
+    name.value="";
+    num.value ="";
+    units.value="";
+
+    name.placeholder = "next ingredient";
+    num.placeholder = 0;
+    units.placeholder = "units";
 }
