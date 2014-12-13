@@ -1,7 +1,9 @@
 meals = [];
 
 meals[0] = [prep_for_compare("Stovetop Lasagna"), "images/lasagna.jpg", "price",4, 3,"lasagna_recipe.html", "ingredients_lasagna.html"];
-meals[1] = [prep_for_compare("Tomato Soup"), "images/soup.png", "price",4, 3,"tomato_soup.html"]
+meals[1] = [prep_for_compare("Tomato Soup"), "images/soup.png", "price",4, 3,"tomato_soup_.html", ]
+meals[2] = [prep_for_compare("Red Cabbage"), "images/cabbage.jpg", "healthy", 4, 2, "cabbage_recipe.html","ingredients_cabbage.html"];
+
 
 function prep_for_compare(str){
 	return str.toLowerCase().split(" ");
