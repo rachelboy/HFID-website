@@ -2,18 +2,23 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Black bean burgers</title>
+  <title>Recipe</title>
     <script type='text/javascript' src='javascript/main.js'></script>
   <script type='text/javascript' src='javascript/add_recipe.js'></script>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/individual_recipe.css">
 </head>
 <body>
-  <div id="screen">
-    <div id="header">
-      
-      <div id="menu_button">
+
+
+    <div id="menu_button">
         <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+    </div>
+
+    <div id="header">
+
+      <div id="title_div">
+        <span id="title">Black Bean Burger</span>
       </div>
 
       <div id="menu">
@@ -32,22 +37,18 @@
           <li><a href="preferences.html">Preferences</a></li>
         <ul>
       </div> 
-
-
-
-
-
-
-       <h1>Black bean burgers</h1>
     </div>
 
-    <div id= "top_button_one">
-      <button onclick="location.href='cookbook.html'">Back</button>
+
+
+
+    <div id="top_buttons">
+      <button id= "top_button_one" class="nav_button" onclick="location.href='cookbook.html'">Back</button>
     </div>
 
     <div id="main">
 
-      <img id="recipe_img" src="images/veggieburger.jpg" alt="Black bean burger">
+<img id="recipe_img" src="images/veggieburger.jpg" alt="Black bean burger">
 
       <h2> Ingredients </h2>
         <table>
@@ -109,11 +110,16 @@
           If grilling, place patties on foil, and grill about 8 minutes on each side. If baking, place patties on baking sheet, and bake about 10 minutes on each side.
         </p>
     </div>
+<div style= "clear: both"></div>
 
-    <div id= "bottom_button_one">
-    <button onclick="myFunction()">Email</button>
-    <script>
+    <div id = "bottom_buttons">
+      <button id= "bottom_button_one" class="nav_button" onclick="myFunction()">Email</button>
+      <button id= "bottom_button_two" class="nav_button" onclick="location.href='ingredients_egginaboat.html'">Add to List</button>
+    </div>
 
+
+
+<script>
     function myFunction() {
         var person = prompt("Send recipe to:");
         
@@ -122,9 +128,9 @@
             "Email sent to " + person ;
         }
     }
-
     </script>
-    </div>
+
 
 </body>
 </html>
+
