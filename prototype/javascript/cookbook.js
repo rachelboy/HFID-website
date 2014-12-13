@@ -19,7 +19,7 @@ function prep_for_compare(str){
 }
 
 function get_query(){
-	var form = document.getElementById('form');
+	var form = document.getElementById('search_form');
 	var query = prep_for_compare(form.query.value);
 	return query;
 };

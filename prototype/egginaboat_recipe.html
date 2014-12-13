@@ -9,11 +9,16 @@
   <link rel="stylesheet" href="css/individual_recipe.css">
 </head>
 <body>
-  <div id="screen">
-    <div id="header">
-      
-      <div id="menu_button">
+
+
+    <div id="menu_button">
         <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+    </div>
+
+    <div id="header">
+
+      <div id="title_div">
+        <span id="title">Egg in a Boat</span>
       </div>
 
       <div id="menu">
@@ -32,17 +37,13 @@
           <li><a href="preferences.html">Preferences</a></li>
         <ul>
       </div> 
-
-
-
-
-
-
-       <h1>Egg in a Boat</h1>
     </div>
 
-    <div id= "top_button_one">
-      <button onclick="location.href='cookbook.html'">Back</button>
+
+
+
+    <div id="top_buttons">
+      <button id= "top_button_one" class="nav_button" onclick="location.href='cookbook.html'">Back</button>
     </div>
 
     <div id="main">
@@ -76,11 +77,16 @@
           Break the egg into the hole in the bread. Cook for 2 minutes, or until the egg is cooked to the consistency you prefer.
         </p>
     </div>
+<div style= "clear: both"></div>
 
-    <div id= "bottom_button_one">
-    <button onclick="myFunction()">Email</button>
-    <script>
+    <div id = "bottom_buttons">
+      <button id= "bottom_button_one" class="nav_button" onclick="myFunction()">Email</button>
+      <button id= "bottom_button_two" class="nav_button" onclick="location.href='ingredients_egginaboat.html'">Add to List</button>
+    </div>
 
+
+
+<script>
     function myFunction() {
         var person = prompt("Send recipe to:");
         
@@ -89,9 +95,9 @@
             "Email sent to " + person ;
         }
     }
-
     </script>
-    </div>
+
 
 </body>
 </html>
+
