@@ -24,7 +24,7 @@ function addListItem(name, coupons){
     element.setAttribute("class", "listItem");
     element.setAttribute("onclick","crossoff(id)");
     element.setAttribute("id",name);
-    element.innerHTML = '<h2><input type="checkbox">'+name+'</h2> <p class="coupons"><a href="coupons.html">'+coupons+'</a></p> <div style="clear:both"></div>';
+    element.innerHTML = '<h2><input type="checkbox">'+name+'</h2> <div class="extras"> <p class="coupons"><a href="coupons.html">'+coupons+'</a></p> <p class="remove">X</p>  </div> <div style="clear:both"></div>';
     
     var list = document.getElementById('listDiv');
     var lastitem = list.children.length - 1;
@@ -57,6 +57,20 @@ function crossoff(listitem)
         for (var x=0; x<inputs.length; x++) {
             if (inputs[x].type.toUpperCase()=='CHECKBOX')
                 inputs[x].checked = true;
+        }
+    }
+}
+
+function remove_item(name){
+    var list = document.getElementById('listDiv');
+    var items = list.children;
+    for (var i=items.length-1; i>=0; i--){
+        if (items[i].id === name){
+            console.log("found one");
+            list.removeChild(items[i]);
+        }
+        else {
+            console.log("nope");
         }
     }
 }
