@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Preferences</title>
-  <script type='text/javascript' src='javascript/main.js'></script>
-  <link rel="stylesheet" href="css/preferences.css">
-</head>
-<body>
-  <div id="screen">
-    <div id="header">
-      
-      <div id="menu_button">
+  <head>
+    <meta charset="utf-8">
+    <title>Framework Test Page</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type='text/javascript' src='javascript/main.js'></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/preferences.css">
+  </head>
+  <body>
+
+    <div id="menu_button">
         <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+    </div>
+
+    <div id="header">
+
+      <div id="title_div">
+        <span id="title">Preferences</span>
       </div>
 
       <div id="menu">
         <ul>
           <li>
               <label>Choose Store
-              <select>
-                  <option value="Trader">Trader Joe's</option>
-                  <option value="Whole">Whole Foods</option>
-                  <option value="Roche">Roche Bros</option>
-              </select>
+                <select>
+                    <option value="Trader">Trader Joe's</option>
+                    <option value="Whole">Whole Foods</option>
+                    <option value="Roche">Roche Bros</option>
+                </select>
               </label>
           </li>
           <li><a href="shopping_list.html">Shopping List</a></li>
-          <li><a href="cookbook.html">Cookbook</a></li>
-          <li><a href="preferences.html">Preferences</a></li>
+          <li><a href="shopping_list.html">Cookbook</a></li>
+          <li><a href="shopping_list.html">Preferences</a></li>
         <ul>
       </div>  
-
-       <h1>Preferences</h1>
+      <div style="clear:both"></div>
     </div>
+    <div style="clear:both"></div>
+
 
 <div id="heightpre">
 
