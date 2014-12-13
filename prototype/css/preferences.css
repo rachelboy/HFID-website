@@ -16,18 +16,20 @@
 
 
 .subPreferenceItem{
-    width: 600px;
-    border: .5px solid black;
+    width: 80%;
+    border: 2px solid black;
+    margin-left: 5%;
+    padding: 0% 5%;
 }
 
 
 .subPreferenceItem h3{
-    font-size: 15pt;
-    text-indent: 30px;
-    left:0px;
+    font-size: 250%;
+    text-indent: 5%;
 }
 
-#floatl{
+#floatl{    
+
     float:left;
 
 
@@ -38,4 +40,8 @@
     padding-top: 30px;
     margin:10px;
 
+}
+
+#radio-choice-1{
+    font-size:50%;
 }
