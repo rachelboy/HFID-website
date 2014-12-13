@@ -33,15 +33,40 @@ function addListItem(name, coupons){
 function crossoff(listitem)
 {
     var listitem=document.getElementById(listitem);
-    if (listitem.checked===false){
+    if (listitem.checked===true){
         console.log(listitem.checked);
         listitem.style.color="black";
-        listitem.checked = true;
+        listitem.checked = false;
+        var inputs = listitem.getElementsByTagName("INPUT");
+        for (var x=0; x<inputs.length; x++) {
+            if (inputs[x].type.toUpperCase()=='CHECKBOX')
+                inputs[x].checked = false;
+        }
     } 
 
     else{
         console.log(listitem.checked);
         listitem.style.color="silver";
-        listitem.checked = false;
+        listitem.checked = true;
+        var inputs = listitem.getElementsByTagName("INPUT");
+        for (var x=0; x<inputs.length; x++) {
+            if (inputs[x].type.toUpperCase()=='CHECKBOX')
+                inputs[x].checked = true;
+        }
+    }
+}
+
+function remove_checked(){
+    console.log("removing checked items");
+    var list = document.getElementById('listDiv');
+    var items = list.children;
+    for (var i=items.length-1; i>=0; i--){
+        if (items[i].checked){
+            console.log("found one");
+            list.removeChild(items[i]);
+        }
+        else {
+            console.log("nope");
+        }
     }
 }

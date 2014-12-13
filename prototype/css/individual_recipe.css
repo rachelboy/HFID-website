@@ -1,4 +1,5 @@
 #main{
+    float: left;
     margin: 20px;
     padding: 5px 20px;
     width: 520px;
@@ -13,4 +14,25 @@
 
 td.amount {
     padding-right: 10px;
+}
+
+#bottom_buttons{
+    /*position: fixed;*/
+    /*bottom:0;*/
+    height: 8%;
+    width: 100%;
+}
+
+#bottom_button_one{
+    /*position: absolute;
+    left: 0px;*/
+    float:left;
+    clear:left;
+}
+
+#bottom_button_two{
+    /*position: absolute;
+    right: 0px;*/
+    float:right;
+    clear:right;
 }
