@@ -1,8 +1,6 @@
 #cookie_popup{
     position: absolute;
-    top: 270px;
-    left: 20px;
-    width: 300px;
+    width: 90%;
     border: 1px solid #2D7FB4;
     z-index: 999999999999;
     background-color: white;

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Shopping List</title>
     <script type='text/javascript' src='javascript/main.js'></script>
-      <script type='text/javascript' src='javascript/crossoff.js'></script>
+      <script type='text/javascript' src='javascript/list.js'></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/list.css">
   </head>
@@ -46,9 +46,15 @@
     </div>
 
     <form id="form" action="">  
-    <input type="text" name="query" id="query" oninput="show('cookie_popup')" placeholder="add an item"/>
+    <input type="text" name="query" id="query" oninput="showDropdown()" placeholder="add an item"/>
     </form> 
 
+    <div id="cookie_popup">
+      <ul>
+        <li onclick="addListItem('Cookies','')">cookies</li>
+        <li onclick="addListItem('Chips Ahoy','$0.50 off')">Chips Ahoy $0.50 off</li>
+      </ul>
+    </div> 
 
     <div id="listDiv">
       <div class="listItem" onchange="crossoff(id)"> 

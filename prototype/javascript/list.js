@@ -1,9 +1,29 @@
-function crossoff(image)
-{
-    var listitem=document.getElementById('listItem_one');
-    if (listitem.style.color="black"){
-    	listitem.style.color="silver"
-    } 
-    else{
-    	listitem.style.color="black"
-    }
+function showDropdown(){
+    // console.log("OIOIEWNOWIEFN");
+    var inputbox = document.getElementById('form');
+    var input = document.getElementById('query').value;
+    console.log(input);
+    var pos = inputbox.getBoundingClientRect();
+    var dropdown=document.getElementById('cookie_popup');
+    var style = dropdown.style;
+    style.top = pos.bottom + 'px';
+    style.left = pos.left + 'px';
+    style.display = 'block';
+}
+
+function addListItem(name, coupons){
+    // console.log("WAZZUP");
+    // console.log(name);
+    
+    var element = document.createElement("div");
+    element.setAttribute("class", "listItem");
+    element.setAttribute("onchange","crossoff(id)");
+    element.innerHTML = '<h2><input type="checkbox">'+name+'</h2> <p class="coupons"><a href="coupons.html">'+coupons+'</a></p> <div style="clear:both"></div>';
+    
+    console.log(element);
+    console.log(element.innerHTML);
+    
+    var list = document.getElementById('listDiv');
+    var lastitem = list.children.length - 1;
+    list.insertBefore(element,list.children[lastitem]);
+}
