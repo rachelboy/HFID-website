@@ -152,7 +152,7 @@ button{
 }
 
 #form input[type="text"] {
-    width: 80%;
+    width: 100%;
     height: 135%;
     font-size: 300%;
 }
