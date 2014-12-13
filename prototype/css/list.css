@@ -56,10 +56,21 @@
     font-weight: normal;
 }
 
-.listItem .coupons{
+.listItem .extras{
     float:right;
-    font-size: 24pt;
-    margin-right: 10%
+    width: 40%;
+}
+
+.listItem .coupons{
+    float:left;
+    font-size: 200%;
+}
+
+.listItem .remove{
+    color: red;
+    font-size: 200%;
+    float:right;
+    margin-right: 5%;
 }
 
 .listItem input[type=image]{

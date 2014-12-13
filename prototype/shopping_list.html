@@ -59,25 +59,37 @@
     <div id="listDiv">
       <div class="listItem" onclick="crossoff(id)" id="meatloaf_mix"> 
       <h2><input type="checkbox">1 lb Meatloaf Mix</h2>
-      <p class="coupons"><a href="coupontwo.html">2 Coupons</a></p>
+      <div class="extras">
+        <p class="coupons"><a href="coupontwo.html">2 Coupons</a></p>
+        <p class="remove" onclick="remove_item('meatloaf_mix')">X</p>
+      </div>
       <div style="clear:both"></div>
       </div>
 
       <div class="listItem" onclick="crossoff(id)" id="barillo_lasagna">    
       <h2><input type="checkbox">Barillo Lasagna</h2>
-      <p class="coupons"><a href="coupons.html">$3 off</a></p>
+      <div class="extras">
+        <p class="coupons"><a href="coupons.html">$3 off</a></p>
+        <p class="remove" onclick="remove_item('barillo_lasagna')">X</p>
+      </div>
       <div style="clear:both"></div>
       </div>
 
       <div class="listItem" onclick="crossoff(id)" id="tomato_sauce">   
       <h2><input type="checkbox">1 can Tomato Sauce</h2>
-      <p class="coupons"></p>
+      <div class="extras">
+        <p class="coupons"></p>
+        <p class="remove" onclick="remove_item('tomato_sauce')">X</p>
+      </div>
       <div style="clear:both"></div>
       </div>
 
       <div class="listItem" onclick="crossoff(id)" id="red_pepper_flakes">   
       <h2><input type="checkbox">Red Pepper Flakes</h2>
-      <p class="coupons"></p>
+      <div class="extras">
+        <p class="coupons"></p>
+        <p class="remove" onclick="remove_item('red_pepper_flakes')">X</p>
+      </div>
       <div style="clear:both"></div>
       </div>
 
