@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Add Ingredients</title>
+  <script type='text/javascript' src='javascript/main.js'></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/add_ingredients.css">
+</head>
+<body>
+
+  <div id="menu_button">
+    <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
+  </div>
+
+  <div id="header">
+
+    <div id="title_div">
+      <span id="title">Add Ingredients</span>
+    </div>
+
+    <div id="menu">
+      <ul>
+        <li>
+            <label>Choose Store
+              <select>
+                  <option value="Trader">Trader Joe's</option>
+                  <option value="Whole">Whole Foods</option>
+                  <option value="Roche">Roche Bros</option>
+              </select>
+            </label>
+        </li>
+        <li><a href="shopping_list.html">Shopping List</a></li>
+        <li><a href="shopping_list.html">Cookbook</a></li>
+        <li><a href="shopping_list.html">Preferences</a></li>
+      <ul>
+    </div>  
+  </div>
+
+  <div style="clear:both"></div>
+
+  <div id="top_buttons">
+    <a href="cookbook.html">
+      <button id= "top_button_one" class="nav_button">Back</button>
+    </a>
+    <a href="shopping_list.html">
+      <button id= "top_button_two" class="nav_button">List</button>
+    </a>
+    <div style="clear:both"></div>
+  </div>
+
+  <h2 id="meal_title">Feta Omelette</h2>
+  <div id="ingredients">
+    
+    <div class="ingredient" id="ingredient1">
+    <p>Cooking spray</p>
+    <input type="image" id="ingredientimage1" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    <div class="ingredient" id="ingredient2">
+    <p>3 eggs</p>
+    <input type="image" id="ingredientimage2" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    <div class="ingredient" id="ingredient3">
+    <p>salt</p>
+    <input type="image" id="ingredientimage3" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    <div class="ingredient" id="ingredient4">
+    <p>1/4 cup spinach</p>
+    <input type="image" id="ingredientimage4" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    <div class="ingredient" id="ingredient5">
+    <p>6 cherry tomatoes</p>
+    <input type="image" id="ingredientimage5" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    <div class="ingredient" id="ingredient6">
+    <p>2 tbsp feta</p>
+    <input type="image" id="ingredientimage6" src="images/add.png" alt="add" onclick="add(id)"> 
+    </div>
+
+    
+  
+  </div>
+
+
+      <div id= "bottom_buttons">
+      <button id= "bottom_button_two" class="nav_button" onclick="(add_all_ingredients(get_all_ingredients()))">Add all items to list</button>
+      </div>
+
+ </div>
+</body>
+</html>
