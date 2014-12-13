@@ -46,31 +46,31 @@
     </div>
 
     <form id="form" action="">  
-    <input type="text" name="query" id="query" oninput="show('cookie_popup')" value="add an item"/>
+    <input type="text" name="query" id="query" oninput="show('cookie_popup')" placeholder="add an item"/>
     </form> 
 
 
-    <div>
-      <div class="listItem" id="listItem1" onchange="crossoff(id)"> 
+    <div id="listDiv">
+      <div class="listItem" onchange="crossoff(id)"> 
 
       <h2><input type="checkbox">1 lb Meatloaf Mix</h2>
       <p class="coupons"><a href="coupontwo.html">2 Coupons</a></p>
       <div style="clear:both"></div>
       </div>
 
-      <div class="listItem" id="listItem2" onchange="crossoff(id)">    
+      <div class="listItem" onchange="crossoff(id)">    
       <h2><input type="checkbox">Barillo Lasagna</h2>
       <p class="coupons"><a href="coupons.html">$3 off</a></p>
       <div style="clear:both"></div>
       </div>
 
-      <div class="listItem" id="listItem3" onchange="crossoff(id)">   
+      <div class="listItem" onchange="crossoff(id)">   
       <h2><input type="checkbox">1 can Tomato Sauce</h2>
       <p class="coupons"></p>
       <div style="clear:both"></div>
       </div>
 
-      <div class="listItem" id="listItem4" onchange="crossoff(id)">   
+      <div class="listItem" onchange="crossoff(id)">   
       <h2><input type="checkbox">Red Pepper Flakes</h2>
       <p class="coupons"></p>
       <div style="clear:both"></div>
@@ -82,10 +82,10 @@
 
     <div id = "bottom_buttons">
       <a href="shopping_list.html">
-        <button id= "bottom_button_one" class="nav_button" style="width:50%;">Remove Checked Items</button>
+        <button id= "bottom_button_one" class="nav_button">Remove Checked Items</button>
       </a>
       <a href="coupons.html">
-        <button id= "bottom_button_two" class="nav_button">Checkout</button>
+        <button id= "bottom_button_two" class="nav_button">See Coupons</button>
       </a>
     </div>
   </body>
