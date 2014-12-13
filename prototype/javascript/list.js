@@ -20,10 +20,11 @@ function addListItem(name, coupons){
     element.setAttribute("onchange","crossoff(id)");
     element.innerHTML = '<h2><input type="checkbox">'+name+'</h2> <p class="coupons"><a href="coupons.html">'+coupons+'</a></p> <div style="clear:both"></div>';
     
-    console.log(element);
-    console.log(element.innerHTML);
-    
     var list = document.getElementById('listDiv');
     var lastitem = list.children.length - 1;
     list.insertBefore(element,list.children[lastitem]);
+
+    document.getElementById('cookie_popup').style.display="none";
+    document.getElementById('query').value = "";
+
 }

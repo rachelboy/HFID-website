@@ -5,10 +5,10 @@ meals[1] = [prep_for_compare("Tomato Soup"), "images/soup.png", "price",4, 3,"to
 meals[2] = [prep_for_compare("Braised Red Cabbage"), "images/cabbage.jpg", "healthy", 4, 2, "cabbage_recipe.html","ingredients_cabbage.html"];
 meals[3] = [prep_for_compare("Barbecue Steak"), "images/bbqsteak.jpg", "coupons", 4, 5, "bbqsteak_recipe.html","ingredients_bbqsteak.html"];
 meals[4] = [prep_for_compare("Black Bean Burger"), "images/veggieburger.jpg", "healthy", 4, 3, "veggieburger_recipe.html","ingredients_veggieburger.html"];
-meals[5] = [prep_for_compare("Insalata Caprese"), "images/caprese.jpg", "Favorites", 4, 1, "caprese_recipe.html","ingredients_caprese.html"];
+meals[5] = [prep_for_compare("Insalata Caprese"), "images/caprese.jpg", "favorites", 4, 1, "caprese_recipe.html","ingredients_caprese.html"];
 meals[6] = [prep_for_compare("Egg in a Boat"), "images/egginaboat.jpg", "affordable", 1, 0, "egginaboat_recipe.html","ingredients_egginaboat.html"];
 meals[7] = [prep_for_compare("Chicken Enchiladas"), "images/enchiladas.jpg", "coupons", 4, 3, "enchiladas_recipe.html","ingredients_enchiladas.html"];
-meals[8] = [prep_for_compare("Pumpkin Pie"), "images/pumpkinpie.jpg", "Favorites", 4, 2, "pumpkinpie_recipe.html","ingredients_pumpkinpie.html"];
+meals[8] = [prep_for_compare("Pumpkin Pie"), "images/pumpkinpie.jpg", "favorites", 4, 2, "pumpkinpie_recipe.html","ingredients_pumpkinpie.html"];
 meals[9] = [prep_for_compare("Feta Omelette"), "images/omelette.jpg", "coupons", 4, 5, "omelette_recipe.html","ingredients_omelette.html"];
 meals[10] = [prep_for_compare("Spaghetti Squash"), "images/squash.jpg", "coupons", 4, 5, "squash_recipe.html","ingredients_squash.html"];
 
