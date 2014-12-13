@@ -1,7 +1,7 @@
 meals = [];
 
-meals[0] = [prep_for_compare("Stovetop Lasagna"), "images/lasagna.jpg", ["favorites"],4, 3,"lasagna_recipe.html", "ingredients_lasagna.html"];
-meals[1] = [prep_for_compare("Tomato Soup"), "images/soup.png", ["favorites"],4, 3,"tomato_soup.html"]
+meals[0] = [prep_for_compare("Stovetop Lasagna"), "images/lasagna.jpg", "price",4, 3,"lasagna_recipe.html", "ingredients_lasagna.html"];
+meals[1] = [prep_for_compare("Tomato Soup"), "images/soup.png", "price",4, 3,"tomato_soup.html"]
 
 function prep_for_compare(str){
 	return str.toLowerCase().split(" ");
@@ -36,6 +36,17 @@ function search(meals, query){
 
 	return eliminateDuplicates(results);
 };
+
+function sort(meals){
+	results = [];
+	category = document.getElementById("top_button_one").value;
+	for(var i=0; i<meals.length; i++){
+		if (meals[i][2] == category){
+			results.push(meals[i])
+		}
+	}
+	return results;
+}
 
 function clear_page(){
 	var parent = document.getElementById("screen");
