@@ -1,6 +1,6 @@
 meals = [];
 
-meals[0] = [prep_for_compare("Stovetop Lasagna"), "images/lasagna.jpg", ["favorites"],4, 3,"lasagna_recipe.html"];
+meals[0] = [prep_for_compare("Stovetop Lasagna"), "images/lasagna.jpg", ["favorites"],4, 3,"lasagna_recipe.html", "ingredients_lasagna.html"];
 meals[1] = [prep_for_compare("Tomato Soup"), "images/soup.png", ["favorites"],4, 3,"tomato_soup.html"]
 
 function prep_for_compare(str){
@@ -60,42 +60,56 @@ function no_results(){
 }
 
 function add_meal(food){
-	var parent = document.getElementById("meals");
+	var meals = document.getElementById("meals");
 	var meal = document.createElement("div");
-	meal.class = "meal";
+	meal.className = "meal";
 	
-
 	var recipe_link = document.createElement("a");
 	recipe_link.href = food[5];
-	meal.appendChild(recipe_link);
-
 	
 	var meal_description = document.createElement('div');
-	meal_description.class = "meal_description";
-	meal.appendChild(meal_description);
-
+	meal_description.className = "meal_description";
 	var image = document.createElement('img');
 	image.src = food[1];
-	meal.appendChild(image);
+	meal_description.appendChild(image);
 	
-
 	var meal_desc_text = document.createElement('div');
-	meal_desc_text.class = "meal_desc_text";
-	meal.appendChild(meal_desc_text);
+	meal_desc_text.className = "meal_desc_text";
 	var title = document.createElement("h2");
 	title.innerHTML = food[0].join(" ");
 	var coupons = document.createElement('p');
 	coupons.innerHTML = "Availble Coupons:" + food[4];
 	var servings = document.createElement('p');
 	servings.innerHTML = "Servings:" + food[3];
-	meal.appendChild(title);
-	meal.appendChild(image);
-	meal.appendChild(coupons);
+	meal_desc_text.appendChild(title);
+	meal_desc_text.appendChild(coupons);
+	meal_desc_text.appendChild(servings);
+	
+	meal_description.appendChild(meal_desc_text);
+	recipe_link.appendChild(meal_description);
+	meal.appendChild(recipe_link);
+	
+	
+	
+	var final_div = document.createElement('div');
+	final_div.className = "add_button";
 	
 
+	var button_link = document.createElement("a");
+	button_link.href = food[6];
+	
 	var add_to_list = document.createElement('button');
-	coupons.innerHTML = "Add to List";
-	meal.appendChild(add_to_list);
+	add_to_list.innerHTML = "Add to List";
+	
+	button_link.appendChild(add_to_list);
+	meal.appendChild(button_link);
+	meal.appendChild(final_div);
+	
+
+	
+	
+	meals.appendChild(meal);
+	
 	
 }
 
