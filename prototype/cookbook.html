@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/cookbook.css">
 </head>
-<body>
+<body id="screen">
 
   <div id="menu_button">
     <img src="images/menu.png" alt="menu" onclick="toggle('menu')">
@@ -61,11 +61,11 @@
   
   <div id="meals">
     
-    <div class="meal" id="meal_one">
+    <div class="meal">
       <a href="lasagna_recipe.html"/>
         <div class="meal_description">
           <img src="images/lasagna.jpg" alt="Lasagna">
-          <div style="float:right">
+          <div class="meal_desc_text">
             <p class="meal_name">Stovetop Lasagna</p>
             <p class="coupons">Available Coupons: 5</p>
             <p class="servings">Servings: 4</p>
@@ -74,13 +74,13 @@
       </a>
 
       <a href="ingredients_lasagna.html"><button>Add to List</button></a>
-      <div style="clear:both"></div>
+      <div class="add_button"></div>
     </div>
 
-    <div class="meal" id="meal_two">
+    <div class="meal">
       <div class="meal_description">
         <img src="images/soup.png" alt="Tomato Soup">
-        <div style="float:right">
+        <div class="meal_desc_text">
           <p class="meal_name">Tomato Soup</p>
           <p class="coupons">Available Coupons: 5</p>
           <p class="servings">Servings: 4</p>
@@ -89,13 +89,13 @@
 
 
       <button>Add to List</button>
-      <div style="clear:both"></div>
+      <div class="add_button"></div>
     </div>
 
-    <div class="meal" id="meal_three">
+    <div class="meal">
       <div class="meal_description">
         <img src="images/tort.png" alt="Tortellini w/ Alfredo">
-        <div style="float:right">
+        <div class="meal_desc_text">
           <p class="meal_name">Tortellini w/ Alfredo</p>
           <p class="coupons">Available Coupons: 5</p>
           <p class="servings">Servings: 4</p>
@@ -104,7 +104,7 @@
 
 
       <button>Add to List</button>
-      <div style="clear:both"></div>
+      <div class="add_button"></div>
     </div>
 
   </div>
