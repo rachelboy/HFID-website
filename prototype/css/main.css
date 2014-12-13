@@ -38,8 +38,8 @@ body {
     position: absolute;
     top: 150px;
     left: 0px;
-    width: 350px;
-    height: 450px;
+    width: 425px;
+    height: 500px;
     border: 1px solid #2D7FB4;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
@@ -56,7 +56,8 @@ body {
 
 #menu li{
     border-bottom: 1px solid black;
-    font-size: 18pt;
+    font-size: 38pt;
+    padding: 5px;
 }
 
 #menu li a{
@@ -65,10 +66,14 @@ body {
     color: black;
 }
 
+#menu select{
+    width: 320px;
+}
+
 select{
     height: 60px;
     width: 200px;
-    font-size: 18pt;
+    font-size: 38pt;
     background-color: #2D7FB4;
     color: #FFFFFF;
     margin: 20px;
