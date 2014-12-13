@@ -48,13 +48,14 @@
 
 
 .listItem h2{
-    font-size: 15pt;
+    font-size: 30pt;
     text-indent: 15px;
+    font-weight: normal;
 }
 
 .listItem .coupons{
     float:right;
-    font-size: 12pt;
+    font-size: 24pt;
     margin-right: 10%
 }
 

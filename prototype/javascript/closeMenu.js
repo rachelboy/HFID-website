@@ -6,6 +6,9 @@ function closeMenu(menu_button)
         	event.stopPropagation();
         	('menu').toggle();
    	 });
+    	('../add_ingredients.html').click(function() {
+			('menu_button').hide();
+		});
 
     	('../add_ingredients.html').click( function(){
         	('menu_button').hide();
