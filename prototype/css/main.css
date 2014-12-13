@@ -73,12 +73,16 @@ select{
     margin: 20px;
 }
 
-button{
+
+#search_button{
     font-size: 135%;
+    width: 15%;
+}
+
+button{
+    font-size: 100%;
     background-color: #2D7FB4;
     color: #FFFFFF;
-    width: 15%;
-
 }
 
 .nav_button{
