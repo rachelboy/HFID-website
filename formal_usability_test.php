@@ -62,6 +62,25 @@
                         <li>We will time how long it takes from when they pull out their phone at the cashier until they get to their coupons. We will also pay attention to how they get to their coupons - by pressing the appropriate button, or by clicking on one of the individual item coupons. If they do not get the coupons on their own, the “cashier” should prompt them by asking if they have any coupons.</li>
                     </ul>
                 </li>
+                <li>Results
+                    <ul>
+                        <li>User 1: After crossing off all items, User 1 clicked on an individual coupon button immediately after being asked for coupons.
+                        </li>
+                        <li>User 2: clicked on “checkout” button before being prompted by cashier, but looked around at what appeared because she thought "checkout" meant she could actually buy the items from her phone</li>
+                        <li>User 3: When prompted by the cashier she was confused about how to get to coupons. She tried to give the phone to the cashier (played by Rachel) without actually exiting the shopping list but then took it back and pressed the individual coupon button after about 3 seconds.</li>
+                        <li>After their tests, user numbers 2 and 3 both said, “maybe that button would make more sense if it said “coupons”.</li>
+                        <li>We were going to record the amount of time it took the user to find the “checkout”  button but the first two users found a button (maybe not the one we expected) so quickly that we did not have time to take a meaningful measurement, and the third user tried to give the phone to the cashier before even pressing any buttons.</li>
+                    </ul>
+                </li>
+                <li>Intepretation of Results
+                    <ul>
+                        <li>We took this to mean that the button should be changed to “coupons” partially because of the misleading nature of the word “checkout” in a mobile context, and also because people looked specifically for their coupons when encountering a cashier. The individual coupon buttons might be a more frequent mode of getting to the coupons than we were expecting.
+                        </li>
+                        <li>We did not follow our test plan very rigorously as we tried to allow for users to use the app in a natural-feeling way, and have learned that we should have prepped users more thoroughly than we did. It may have been nice to do the test with people we did paper prototype testing with, because they had some context for the app already. It was challenging to get meaningful results from people who have never used the app before.
+                        </li>
+                        <li>We changed the labelling of the button to “coupons”, even though we only tested with three people.</li>
+                    </ul>
+                </li>
             </ul>
           </div>
 
