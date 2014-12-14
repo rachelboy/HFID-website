@@ -91,3 +91,8 @@
     clear:both;
 }
 
+#error{
+    color: red;
+    font-size: 36pt;
+    text-align: center;
+}
