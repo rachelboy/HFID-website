@@ -76,7 +76,8 @@ function no_results(){
 	set_content();
 	var parent = document.getElementById("meals");
 	var message = document.createElement("p");
-	message.innerHTML = "No results found";
+	message.id = "error";
+	message.innerHTML = "No Results Found";
 	parent.appendChild(message);
 	return;
 }
