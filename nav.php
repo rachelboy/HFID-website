@@ -35,7 +35,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Prototypes<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="computer_prototype_a/shopping_list.html">Prototype - Computer (V1)</a></li>
-            <li><a href="prototype/shopping_list.html">Prototype - Mobile (Under Development)</a></li>
+            <li><a href="prototype/shopping_list.html">Prototype - Mobile Only (Final)</a></li>
           </ul>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Heuristic Evaluation<span class="caret"></span></a>
