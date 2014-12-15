@@ -37,6 +37,8 @@
 
             <p>Mealz for Dealz is a mobile app for helping shoppers effortlessly save money by automatically incorporating coupons into the grocery planning process. This design uses the process of constructing a shopping list as a vehicle to find and deliver savings opportunities. When the user add items to their list, the app automatically finds and saves appropriate coupons, which are accessible when they checkout. This brings the savings directly to users without any extra effort on their part.</p>
 
+            <p>The Mealz for Dealz prototype can be seen under the prototype tab on the navigation menu above. A version formatted for the computer is available, though this version does not implement all of the features of our second-round prototype. The version formatted for mobile demonstrates more features, but has been optomiized on the phone available to the team, and styling may not be consistent across all platforms and browsers.</p>
+
             <h2>Who will use it?</h2>
 
             <p>Mealz for Dealz is targeted at frequent shoppers, who could benefit from the savings coupons provide but don’t have the time to find them. We focused on one prototypical user, Tammy. Tammy is a working mother, who views grocery shopping as a “mom of the house chore”. She wants to get shopping done as quickly and painlessly as possible. The energy she does devote to shopping goes into making sure she gets the food that her family enjoys and will satisfy her family’s nutritional needs. As an experienced shopper, Tammy has developed distinctive shopping habits. Tammy would like to save, but is not willing to deviate from her routine and expend additional effort to realize savings.</p>
@@ -74,6 +76,60 @@
             <p>Our current prototype does not, however, reflect every design decision we made, simply because we ran out of implementation time. For instance, one of the more consistent pieces of feedback was that many users sort their grocery list by area of the store, or type of food, or some other criteria. At the moment, our prototype allows no sorting of the grocery list at all. One step up from this would be automatically sorting the list by aisle of the store, as this was what users most commonly reported doing themselves. Even better, however, would be allowing users to choose how to sort the list themselves, possibly by dynamically adding headers and dragging list items around.</p>
 
             <p>The interactions on our current prototype are also universally clicking, rather than swiping or dragging, which does not take full advantage of the interaction possibilities on a mobile phone. This happened because much of our initial development occurred on laptops, however in future we would like to implement touchscreen gestures. For instance, letting users swipe left or right to navigate between the shopping list and the cookbook would provide a handy shortcut for power users. Letting users swipe an item off the screen to delete it from the grocery list would simplify our deletion process. And letting users swipe left or right to scroll between coupons would more closely match the interactions they expect from a touchscreen.</p>
+
+            <h2>Appendix</h2>
+            <p>*All pages can access the app-wide navigation menu using the menu button in the top right corner</p>
+            <ol>
+                <li>Shopping List Page:
+                    <ul>
+                        <li>Add individual items (as long as what you want to add is cookies. Which, let’s be real, it is)</li>
+                        <li>Remove individual items from the shopping list [V2 only]</li>
+                        <li>Check and uncheck items</li>
+                        <li>Remove all checked items [V2 only]</li>
+                        <li>View coupons (either all coupons on the list, or directly view coupons for individual items) </li>
+                    </ul>
+                </li>
+                <li>Cookbook Page
+                    <ul>
+                        <li>Sort meals [V2 only]</li>
+                        <li>Search for meals [search will provide results if a word from the query matches  one of 11 different meals (insalata caprese, pumpkin pie, lasagna, egg in a boat,  braised red cabbage, black bean burger, barbecue steak, chicken enchiladas, feta omelette, and spaghetti squash)] [V2 only]</li>
+                        <li>Go to add a Recipe</li>
+                        <li>View a Recipe (Stovetop Lasagna and searchble recipes only)</li>
+                        <li>Choose to add a meal to the list (Stovetop Lasagna and searchble recipes only)</li>
+                    </ul>
+                </li>
+                <li>Add Ingredients Page
+                    <ul>
+                        <li>Add and and remove items connected to a meal from a list** </li>
+                        <li>Add all items connected to a meal with one button** [V2 only]</li>
+                        <li>Go to the Cookbook Page</li>
+                        <li>Go to the List Page</li>
+                    </ul>
+**items are not actually added to the list in the prototype, but would be in a fully implemented version
+                </li>
+                <li>Add Recipe Page
+                    <ul>
+                        <li>Name the recipe</li>
+                        <li>Set the number of people it serves</li>
+                        <li>Add ingredients</li>
+                        <li>Add a picture (kind of - picture does not actually add, but dialogue box pops up) [V2 only]</li>
+                        <li>Add notes</li>
+                        <li>Add the recipe! (actually just redirects to the meal page - the content is not actually added)</li>
+                    </ul>
+                </li>
+                <li>Coupons Page
+                    <ul>
+                        <li>Click left or right to see other coupons on the list</li>
+                        <li>Return to the list page</li>
+                    </ul>
+                </li>
+                <li>Preferences Page
+                    <ul>
+                        <li>It is possible to specify a range of preferences </li>
+                        <li>Some formatting is not well implemented on this page in V2</li>
+                    </ul>
+                </li>
+            </ol>
           </div>
 
 
