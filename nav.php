@@ -50,6 +50,7 @@
             <li><a href="design-refinement.php">Design Refinement Report</a></li>
           </ul>
         <li><a href="formal_usability_test.php">Formal Usabilty Test</a></li>
+        <li><a href="final_report.php">Final Report</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
